@@ -1,0 +1,798 @@
+age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,num,location
+63.0,Male,Typical Angina,145.0,233.0,Above 120,LV Hypertrophy,150.0,Exercise Angina Absent,2.3,Down,0 Vessel(s),Fixed Defect,0,Cleveland
+67.0,Male,Asymptomatic,160.0,286.0,Below 120,LV Hypertrophy,108.0,Exercise Angina Present,1.5,Flat,3 Vessel(s),Normal,1,Cleveland
+67.0,Male,Asymptomatic,120.0,229.0,Below 120,LV Hypertrophy,129.0,Exercise Angina Present,2.6,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+37.0,Male,Nonanginal Pain,130.0,250.0,Below 120,Normal,187.0,Exercise Angina Absent,3.5,Down,0 Vessel(s),Normal,0,Cleveland
+41.0,Female,Atypical Angina,130.0,204.0,Below 120,LV Hypertrophy,172.0,Exercise Angina Absent,1.4,Up,0 Vessel(s),Normal,0,Cleveland
+56.0,Male,Atypical Angina,120.0,236.0,Below 120,Normal,178.0,Exercise Angina Absent,0.8,Up,0 Vessel(s),Normal,0,Cleveland
+62.0,Female,Asymptomatic,140.0,268.0,Below 120,LV Hypertrophy,160.0,Exercise Angina Absent,3.6,Down,2 Vessel(s),Normal,1,Cleveland
+57.0,Female,Asymptomatic,120.0,354.0,Below 120,Normal,163.0,Exercise Angina Present,0.6,Up,0 Vessel(s),Normal,0,Cleveland
+63.0,Male,Asymptomatic,130.0,254.0,Below 120,LV Hypertrophy,147.0,Exercise Angina Absent,1.4,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+53.0,Male,Asymptomatic,140.0,203.0,Above 120,LV Hypertrophy,155.0,Exercise Angina Present,3.1,Down,0 Vessel(s),Reversable Defect,1,Cleveland
+57.0,Male,Asymptomatic,140.0,192.0,Below 120,Normal,148.0,Exercise Angina Absent,0.4,Flat,0 Vessel(s),Fixed Defect,0,Cleveland
+56.0,Female,Atypical Angina,140.0,294.0,Below 120,LV Hypertrophy,153.0,Exercise Angina Absent,1.3,Flat,0 Vessel(s),Normal,0,Cleveland
+56.0,Male,Nonanginal Pain,130.0,256.0,Above 120,LV Hypertrophy,142.0,Exercise Angina Present,0.6,Flat,1 Vessel(s),Fixed Defect,1,Cleveland
+44.0,Male,Atypical Angina,120.0,263.0,Below 120,Normal,173.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+52.0,Male,Nonanginal Pain,172.0,199.0,Above 120,Normal,162.0,Exercise Angina Absent,0.5,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+57.0,Male,Nonanginal Pain,150.0,168.0,Below 120,Normal,174.0,Exercise Angina Absent,1.6,Up,0 Vessel(s),Normal,0,Cleveland
+48.0,Male,Atypical Angina,110.0,229.0,Below 120,Normal,168.0,Exercise Angina Absent,1.0,Down,0 Vessel(s),Reversable Defect,1,Cleveland
+54.0,Male,Asymptomatic,140.0,239.0,Below 120,Normal,160.0,Exercise Angina Absent,1.2,Up,0 Vessel(s),Normal,0,Cleveland
+48.0,Female,Nonanginal Pain,130.0,275.0,Below 120,Normal,139.0,Exercise Angina Absent,0.2,Up,0 Vessel(s),Normal,0,Cleveland
+49.0,Male,Atypical Angina,130.0,266.0,Below 120,Normal,171.0,Exercise Angina Absent,0.6,Up,0 Vessel(s),Normal,0,Cleveland
+64.0,Male,Typical Angina,110.0,211.0,Below 120,LV Hypertrophy,144.0,Exercise Angina Present,1.8,Flat,0 Vessel(s),Normal,0,Cleveland
+58.0,Female,Typical Angina,150.0,283.0,Above 120,LV Hypertrophy,162.0,Exercise Angina Absent,1.0,Up,0 Vessel(s),Normal,0,Cleveland
+58.0,Male,Atypical Angina,120.0,284.0,Below 120,LV Hypertrophy,160.0,Exercise Angina Absent,1.8,Flat,0 Vessel(s),Normal,1,Cleveland
+58.0,Male,Nonanginal Pain,132.0,224.0,Below 120,LV Hypertrophy,173.0,Exercise Angina Absent,3.2,Up,2 Vessel(s),Reversable Defect,1,Cleveland
+60.0,Male,Asymptomatic,130.0,206.0,Below 120,LV Hypertrophy,132.0,Exercise Angina Present,2.4,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+50.0,Female,Nonanginal Pain,120.0,219.0,Below 120,Normal,158.0,Exercise Angina Absent,1.6,Flat,0 Vessel(s),Normal,0,Cleveland
+58.0,Female,Nonanginal Pain,120.0,340.0,Below 120,Normal,172.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+66.0,Female,Typical Angina,150.0,226.0,Below 120,Normal,114.0,Exercise Angina Absent,2.6,Down,0 Vessel(s),Normal,0,Cleveland
+43.0,Male,Asymptomatic,150.0,247.0,Below 120,Normal,171.0,Exercise Angina Absent,1.5,Up,0 Vessel(s),Normal,0,Cleveland
+40.0,Male,Asymptomatic,110.0,167.0,Below 120,LV Hypertrophy,114.0,Exercise Angina Present,2.0,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+69.0,Female,Typical Angina,140.0,239.0,Below 120,Normal,151.0,Exercise Angina Absent,1.8,Up,2 Vessel(s),Normal,0,Cleveland
+60.0,Male,Asymptomatic,117.0,230.0,Above 120,Normal,160.0,Exercise Angina Present,1.4,Up,2 Vessel(s),Reversable Defect,1,Cleveland
+64.0,Male,Nonanginal Pain,140.0,335.0,Below 120,Normal,158.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,1,Cleveland
+59.0,Male,Asymptomatic,135.0,234.0,Below 120,Normal,161.0,Exercise Angina Absent,0.5,Flat,0 Vessel(s),Reversable Defect,0,Cleveland
+44.0,Male,Nonanginal Pain,130.0,233.0,Below 120,Normal,179.0,Exercise Angina Present,0.4,Up,0 Vessel(s),Normal,0,Cleveland
+42.0,Male,Asymptomatic,140.0,226.0,Below 120,Normal,178.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+43.0,Male,Asymptomatic,120.0,177.0,Below 120,LV Hypertrophy,120.0,Exercise Angina Present,2.5,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+57.0,Male,Asymptomatic,150.0,276.0,Below 120,LV Hypertrophy,112.0,Exercise Angina Present,0.6,Flat,1 Vessel(s),Fixed Defect,1,Cleveland
+55.0,Male,Asymptomatic,132.0,353.0,Below 120,Normal,132.0,Exercise Angina Present,1.2,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+61.0,Male,Nonanginal Pain,150.0,243.0,Above 120,Normal,137.0,Exercise Angina Present,1.0,Flat,0 Vessel(s),Normal,0,Cleveland
+65.0,Female,Asymptomatic,150.0,225.0,Below 120,LV Hypertrophy,114.0,Exercise Angina Absent,1.0,Flat,3 Vessel(s),Reversable Defect,1,Cleveland
+40.0,Male,Typical Angina,140.0,199.0,Below 120,Normal,178.0,Exercise Angina Present,1.4,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+71.0,Female,Atypical Angina,160.0,302.0,Below 120,Normal,162.0,Exercise Angina Absent,0.4,Up,2 Vessel(s),Normal,0,Cleveland
+59.0,Male,Nonanginal Pain,150.0,212.0,Above 120,Normal,157.0,Exercise Angina Absent,1.6,Up,0 Vessel(s),Normal,0,Cleveland
+61.0,Female,Asymptomatic,130.0,330.0,Below 120,LV Hypertrophy,169.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,1,Cleveland
+58.0,Male,Nonanginal Pain,112.0,230.0,Below 120,LV Hypertrophy,165.0,Exercise Angina Absent,2.5,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+51.0,Male,Nonanginal Pain,110.0,175.0,Below 120,Normal,123.0,Exercise Angina Absent,0.6,Up,0 Vessel(s),Normal,0,Cleveland
+50.0,Male,Asymptomatic,150.0,243.0,Below 120,LV Hypertrophy,128.0,Exercise Angina Absent,2.6,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+65.0,Female,Nonanginal Pain,140.0,417.0,Above 120,LV Hypertrophy,157.0,Exercise Angina Absent,0.8,Up,1 Vessel(s),Normal,0,Cleveland
+53.0,Male,Nonanginal Pain,130.0,197.0,Above 120,LV Hypertrophy,152.0,Exercise Angina Absent,1.2,Down,0 Vessel(s),Normal,0,Cleveland
+41.0,Female,Atypical Angina,105.0,198.0,Below 120,Normal,168.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Normal,0,Cleveland
+65.0,Male,Asymptomatic,120.0,177.0,Below 120,Normal,140.0,Exercise Angina Absent,0.4,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+44.0,Male,Asymptomatic,112.0,290.0,Below 120,LV Hypertrophy,153.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Normal,1,Cleveland
+44.0,Male,Atypical Angina,130.0,219.0,Below 120,LV Hypertrophy,188.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+60.0,Male,Asymptomatic,130.0,253.0,Below 120,Normal,144.0,Exercise Angina Present,1.4,Up,1 Vessel(s),Reversable Defect,1,Cleveland
+54.0,Male,Asymptomatic,124.0,266.0,Below 120,LV Hypertrophy,109.0,Exercise Angina Present,2.2,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+50.0,Male,Nonanginal Pain,140.0,233.0,Below 120,Normal,163.0,Exercise Angina Absent,0.6,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+41.0,Male,Asymptomatic,110.0,172.0,Below 120,LV Hypertrophy,158.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Reversable Defect,1,Cleveland
+54.0,Male,Nonanginal Pain,125.0,273.0,Below 120,LV Hypertrophy,152.0,Exercise Angina Absent,0.5,Down,1 Vessel(s),Normal,0,Cleveland
+51.0,Male,Typical Angina,125.0,213.0,Below 120,LV Hypertrophy,125.0,Exercise Angina Present,1.4,Up,1 Vessel(s),Normal,0,Cleveland
+51.0,Female,Asymptomatic,130.0,305.0,Below 120,Normal,142.0,Exercise Angina Present,1.2,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+46.0,Female,Nonanginal Pain,142.0,177.0,Below 120,LV Hypertrophy,160.0,Exercise Angina Present,1.4,Down,0 Vessel(s),Normal,0,Cleveland
+58.0,Male,Asymptomatic,128.0,216.0,Below 120,LV Hypertrophy,131.0,Exercise Angina Present,2.2,Flat,3 Vessel(s),Reversable Defect,1,Cleveland
+54.0,Female,Nonanginal Pain,135.0,304.0,Above 120,Normal,170.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+54.0,Male,Asymptomatic,120.0,188.0,Below 120,Normal,113.0,Exercise Angina Absent,1.4,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+60.0,Male,Asymptomatic,145.0,282.0,Below 120,LV Hypertrophy,142.0,Exercise Angina Present,2.8,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+60.0,Male,Nonanginal Pain,140.0,185.0,Below 120,LV Hypertrophy,155.0,Exercise Angina Absent,3.0,Flat,0 Vessel(s),Normal,1,Cleveland
+54.0,Male,Nonanginal Pain,150.0,232.0,Below 120,LV Hypertrophy,165.0,Exercise Angina Absent,1.6,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+59.0,Male,Asymptomatic,170.0,326.0,Below 120,LV Hypertrophy,140.0,Exercise Angina Present,3.4,Down,0 Vessel(s),Reversable Defect,1,Cleveland
+46.0,Male,Nonanginal Pain,150.0,231.0,Below 120,Normal,147.0,Exercise Angina Absent,3.6,Flat,0 Vessel(s),Normal,1,Cleveland
+65.0,Female,Nonanginal Pain,155.0,269.0,Below 120,Normal,148.0,Exercise Angina Absent,0.8,Up,0 Vessel(s),Normal,0,Cleveland
+67.0,Male,Asymptomatic,125.0,254.0,Above 120,Normal,163.0,Exercise Angina Absent,0.2,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+62.0,Male,Asymptomatic,120.0,267.0,Below 120,Normal,99.0,Exercise Angina Present,1.8,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+65.0,Male,Asymptomatic,110.0,248.0,Below 120,LV Hypertrophy,158.0,Exercise Angina Absent,0.6,Up,2 Vessel(s),Fixed Defect,1,Cleveland
+44.0,Male,Asymptomatic,110.0,197.0,Below 120,LV Hypertrophy,177.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Normal,1,Cleveland
+65.0,Female,Nonanginal Pain,160.0,360.0,Below 120,LV Hypertrophy,151.0,Exercise Angina Absent,0.8,Up,0 Vessel(s),Normal,0,Cleveland
+60.0,Male,Asymptomatic,125.0,258.0,Below 120,LV Hypertrophy,141.0,Exercise Angina Present,2.8,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+51.0,Female,Nonanginal Pain,140.0,308.0,Below 120,LV Hypertrophy,142.0,Exercise Angina Absent,1.5,Up,1 Vessel(s),Normal,0,Cleveland
+48.0,Male,Atypical Angina,130.0,245.0,Below 120,LV Hypertrophy,180.0,Exercise Angina Absent,0.2,Flat,0 Vessel(s),Normal,0,Cleveland
+58.0,Male,Asymptomatic,150.0,270.0,Below 120,LV Hypertrophy,111.0,Exercise Angina Present,0.8,Up,0 Vessel(s),Reversable Defect,1,Cleveland
+45.0,Male,Asymptomatic,104.0,208.0,Below 120,LV Hypertrophy,148.0,Exercise Angina Present,3.0,Flat,0 Vessel(s),Normal,0,Cleveland
+53.0,Female,Asymptomatic,130.0,264.0,Below 120,LV Hypertrophy,143.0,Exercise Angina Absent,0.4,Flat,0 Vessel(s),Normal,0,Cleveland
+39.0,Male,Nonanginal Pain,140.0,321.0,Below 120,LV Hypertrophy,182.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+68.0,Male,Nonanginal Pain,180.0,274.0,Above 120,LV Hypertrophy,150.0,Exercise Angina Present,1.6,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+52.0,Male,Atypical Angina,120.0,325.0,Below 120,Normal,172.0,Exercise Angina Absent,0.2,Up,0 Vessel(s),Normal,0,Cleveland
+44.0,Male,Nonanginal Pain,140.0,235.0,Below 120,LV Hypertrophy,180.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+47.0,Male,Nonanginal Pain,138.0,257.0,Below 120,LV Hypertrophy,156.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+53.0,Female,Nonanginal Pain,128.0,216.0,Below 120,LV Hypertrophy,115.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),,0,Cleveland
+53.0,Female,Asymptomatic,138.0,234.0,Below 120,LV Hypertrophy,160.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+51.0,Female,Nonanginal Pain,130.0,256.0,Below 120,LV Hypertrophy,149.0,Exercise Angina Absent,0.5,Up,0 Vessel(s),Normal,0,Cleveland
+66.0,Male,Asymptomatic,120.0,302.0,Below 120,LV Hypertrophy,151.0,Exercise Angina Absent,0.4,Flat,0 Vessel(s),Normal,0,Cleveland
+62.0,Female,Asymptomatic,160.0,164.0,Below 120,LV Hypertrophy,145.0,Exercise Angina Absent,6.2,Down,3 Vessel(s),Reversable Defect,1,Cleveland
+62.0,Male,Nonanginal Pain,130.0,231.0,Below 120,Normal,146.0,Exercise Angina Absent,1.8,Flat,3 Vessel(s),Reversable Defect,0,Cleveland
+44.0,Female,Nonanginal Pain,108.0,141.0,Below 120,Normal,175.0,Exercise Angina Absent,0.6,Flat,0 Vessel(s),Normal,0,Cleveland
+63.0,Female,Nonanginal Pain,135.0,252.0,Below 120,LV Hypertrophy,172.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+52.0,Male,Asymptomatic,128.0,255.0,Below 120,Normal,161.0,Exercise Angina Present,0.0,Up,1 Vessel(s),Reversable Defect,1,Cleveland
+59.0,Male,Asymptomatic,110.0,239.0,Below 120,LV Hypertrophy,142.0,Exercise Angina Present,1.2,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+60.0,Female,Asymptomatic,150.0,258.0,Below 120,LV Hypertrophy,157.0,Exercise Angina Absent,2.6,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+52.0,Male,Atypical Angina,134.0,201.0,Below 120,Normal,158.0,Exercise Angina Absent,0.8,Up,1 Vessel(s),Normal,0,Cleveland
+48.0,Male,Asymptomatic,122.0,222.0,Below 120,LV Hypertrophy,186.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+45.0,Male,Asymptomatic,115.0,260.0,Below 120,LV Hypertrophy,185.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+34.0,Male,Typical Angina,118.0,182.0,Below 120,LV Hypertrophy,174.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+57.0,Female,Asymptomatic,128.0,303.0,Below 120,LV Hypertrophy,159.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Normal,0,Cleveland
+71.0,Female,Nonanginal Pain,110.0,265.0,Above 120,LV Hypertrophy,130.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Normal,0,Cleveland
+49.0,Male,Nonanginal Pain,120.0,188.0,Below 120,Normal,139.0,Exercise Angina Absent,2.0,Flat,3 Vessel(s),Reversable Defect,1,Cleveland
+54.0,Male,Atypical Angina,108.0,309.0,Below 120,Normal,156.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+59.0,Male,Asymptomatic,140.0,177.0,Below 120,Normal,162.0,Exercise Angina Present,0.0,Up,1 Vessel(s),Reversable Defect,1,Cleveland
+57.0,Male,Nonanginal Pain,128.0,229.0,Below 120,LV Hypertrophy,150.0,Exercise Angina Absent,0.4,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+61.0,Male,Asymptomatic,120.0,260.0,Below 120,Normal,140.0,Exercise Angina Present,3.6,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+39.0,Male,Asymptomatic,118.0,219.0,Below 120,Normal,140.0,Exercise Angina Absent,1.2,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+61.0,Female,Asymptomatic,145.0,307.0,Below 120,LV Hypertrophy,146.0,Exercise Angina Present,1.0,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+56.0,Male,Asymptomatic,125.0,249.0,Above 120,LV Hypertrophy,144.0,Exercise Angina Present,1.2,Flat,1 Vessel(s),Normal,1,Cleveland
+52.0,Male,Typical Angina,118.0,186.0,Below 120,LV Hypertrophy,190.0,Exercise Angina Absent,0.0,Flat,0 Vessel(s),Fixed Defect,0,Cleveland
+43.0,Female,Asymptomatic,132.0,341.0,Above 120,LV Hypertrophy,136.0,Exercise Angina Present,3.0,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+62.0,Female,Nonanginal Pain,130.0,263.0,Below 120,Normal,97.0,Exercise Angina Absent,1.2,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+41.0,Male,Atypical Angina,135.0,203.0,Below 120,Normal,132.0,Exercise Angina Absent,0.0,Flat,0 Vessel(s),Fixed Defect,0,Cleveland
+58.0,Male,Nonanginal Pain,140.0,211.0,Above 120,LV Hypertrophy,165.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+35.0,Female,Asymptomatic,138.0,183.0,Below 120,Normal,182.0,Exercise Angina Absent,1.4,Up,0 Vessel(s),Normal,0,Cleveland
+63.0,Male,Asymptomatic,130.0,330.0,Above 120,LV Hypertrophy,132.0,Exercise Angina Present,1.8,Up,3 Vessel(s),Reversable Defect,1,Cleveland
+65.0,Male,Asymptomatic,135.0,254.0,Below 120,LV Hypertrophy,127.0,Exercise Angina Absent,2.8,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+48.0,Male,Asymptomatic,130.0,256.0,Above 120,LV Hypertrophy,150.0,Exercise Angina Present,0.0,Up,2 Vessel(s),Reversable Defect,1,Cleveland
+63.0,Female,Asymptomatic,150.0,407.0,Below 120,LV Hypertrophy,154.0,Exercise Angina Absent,4.0,Flat,3 Vessel(s),Reversable Defect,1,Cleveland
+51.0,Male,Nonanginal Pain,100.0,222.0,Below 120,Normal,143.0,Exercise Angina Present,1.2,Flat,0 Vessel(s),Normal,0,Cleveland
+55.0,Male,Asymptomatic,140.0,217.0,Below 120,Normal,111.0,Exercise Angina Present,5.6,Down,0 Vessel(s),Reversable Defect,1,Cleveland
+65.0,Male,Typical Angina,138.0,282.0,Above 120,LV Hypertrophy,174.0,Exercise Angina Absent,1.4,Flat,1 Vessel(s),Normal,1,Cleveland
+45.0,Female,Atypical Angina,130.0,234.0,Below 120,LV Hypertrophy,175.0,Exercise Angina Absent,0.6,Flat,0 Vessel(s),Normal,0,Cleveland
+56.0,Female,Asymptomatic,200.0,288.0,Above 120,LV Hypertrophy,133.0,Exercise Angina Present,4.0,Down,2 Vessel(s),Reversable Defect,1,Cleveland
+54.0,Male,Asymptomatic,110.0,239.0,Below 120,Normal,126.0,Exercise Angina Present,2.8,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+44.0,Male,Atypical Angina,120.0,220.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+62.0,Female,Asymptomatic,124.0,209.0,Below 120,Normal,163.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+54.0,Male,Nonanginal Pain,120.0,258.0,Below 120,LV Hypertrophy,147.0,Exercise Angina Absent,0.4,Flat,0 Vessel(s),Reversable Defect,0,Cleveland
+51.0,Male,Nonanginal Pain,94.0,227.0,Below 120,Normal,154.0,Exercise Angina Present,0.0,Up,1 Vessel(s),Reversable Defect,0,Cleveland
+29.0,Male,Atypical Angina,130.0,204.0,Below 120,LV Hypertrophy,202.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+51.0,Male,Asymptomatic,140.0,261.0,Below 120,LV Hypertrophy,186.0,Exercise Angina Present,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+43.0,Female,Nonanginal Pain,122.0,213.0,Below 120,Normal,165.0,Exercise Angina Absent,0.2,Flat,0 Vessel(s),Normal,0,Cleveland
+55.0,Female,Atypical Angina,135.0,250.0,Below 120,LV Hypertrophy,161.0,Exercise Angina Absent,1.4,Flat,0 Vessel(s),Normal,0,Cleveland
+70.0,Male,Asymptomatic,145.0,174.0,Below 120,Normal,125.0,Exercise Angina Present,2.6,Down,0 Vessel(s),Reversable Defect,1,Cleveland
+62.0,Male,Atypical Angina,120.0,281.0,Below 120,LV Hypertrophy,103.0,Exercise Angina Absent,1.4,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+35.0,Male,Asymptomatic,120.0,198.0,Below 120,Normal,130.0,Exercise Angina Present,1.6,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+51.0,Male,Nonanginal Pain,125.0,245.0,Above 120,LV Hypertrophy,166.0,Exercise Angina Absent,2.4,Flat,0 Vessel(s),Normal,0,Cleveland
+59.0,Male,Atypical Angina,140.0,221.0,Below 120,Normal,164.0,Exercise Angina Present,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+59.0,Male,Typical Angina,170.0,288.0,Below 120,LV Hypertrophy,159.0,Exercise Angina Absent,0.2,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+52.0,Male,Atypical Angina,128.0,205.0,Above 120,Normal,184.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+64.0,Male,Nonanginal Pain,125.0,309.0,Below 120,Normal,131.0,Exercise Angina Present,1.8,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+58.0,Male,Nonanginal Pain,105.0,240.0,Below 120,LV Hypertrophy,154.0,Exercise Angina Present,0.6,Flat,0 Vessel(s),Reversable Defect,0,Cleveland
+47.0,Male,Nonanginal Pain,108.0,243.0,Below 120,Normal,152.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,1,Cleveland
+57.0,Male,Asymptomatic,165.0,289.0,Above 120,LV Hypertrophy,124.0,Exercise Angina Absent,1.0,Flat,3 Vessel(s),Reversable Defect,1,Cleveland
+41.0,Male,Nonanginal Pain,112.0,250.0,Below 120,Normal,179.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+45.0,Male,Atypical Angina,128.0,308.0,Below 120,LV Hypertrophy,170.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+60.0,Female,Nonanginal Pain,102.0,318.0,Below 120,Normal,160.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Normal,0,Cleveland
+52.0,Male,Typical Angina,152.0,298.0,Above 120,Normal,178.0,Exercise Angina Absent,1.2,Flat,0 Vessel(s),Reversable Defect,0,Cleveland
+42.0,Female,Asymptomatic,102.0,265.0,Below 120,LV Hypertrophy,122.0,Exercise Angina Absent,0.6,Flat,0 Vessel(s),Normal,0,Cleveland
+67.0,Female,Nonanginal Pain,115.0,564.0,Below 120,LV Hypertrophy,160.0,Exercise Angina Absent,1.6,Flat,0 Vessel(s),Reversable Defect,0,Cleveland
+55.0,Male,Asymptomatic,160.0,289.0,Below 120,LV Hypertrophy,145.0,Exercise Angina Present,0.8,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+64.0,Male,Asymptomatic,120.0,246.0,Below 120,LV Hypertrophy,96.0,Exercise Angina Present,2.2,Down,1 Vessel(s),Normal,1,Cleveland
+70.0,Male,Asymptomatic,130.0,322.0,Below 120,LV Hypertrophy,109.0,Exercise Angina Absent,2.4,Flat,3 Vessel(s),Normal,1,Cleveland
+51.0,Male,Asymptomatic,140.0,299.0,Below 120,Normal,173.0,Exercise Angina Present,1.6,Up,0 Vessel(s),Reversable Defect,1,Cleveland
+58.0,Male,Asymptomatic,125.0,300.0,Below 120,LV Hypertrophy,171.0,Exercise Angina Absent,0.0,Up,2 Vessel(s),Reversable Defect,1,Cleveland
+60.0,Male,Asymptomatic,140.0,293.0,Below 120,LV Hypertrophy,170.0,Exercise Angina Absent,1.2,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+68.0,Male,Nonanginal Pain,118.0,277.0,Below 120,Normal,151.0,Exercise Angina Absent,1.0,Up,1 Vessel(s),Reversable Defect,0,Cleveland
+46.0,Male,Atypical Angina,101.0,197.0,Above 120,Normal,156.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+77.0,Male,Asymptomatic,125.0,304.0,Below 120,LV Hypertrophy,162.0,Exercise Angina Present,0.0,Up,3 Vessel(s),Normal,1,Cleveland
+54.0,Female,Nonanginal Pain,110.0,214.0,Below 120,Normal,158.0,Exercise Angina Absent,1.6,Flat,0 Vessel(s),Normal,0,Cleveland
+58.0,Female,Asymptomatic,100.0,248.0,Below 120,LV Hypertrophy,122.0,Exercise Angina Absent,1.0,Flat,0 Vessel(s),Normal,0,Cleveland
+48.0,Male,Nonanginal Pain,124.0,255.0,Above 120,Normal,175.0,Exercise Angina Absent,0.0,Up,2 Vessel(s),Normal,0,Cleveland
+57.0,Male,Asymptomatic,132.0,207.0,Below 120,Normal,168.0,Exercise Angina Present,0.0,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+52.0,Male,Nonanginal Pain,138.0,223.0,Below 120,Normal,169.0,Exercise Angina Absent,0.0,Up,,Normal,0,Cleveland
+54.0,Female,Atypical Angina,132.0,288.0,Above 120,LV Hypertrophy,159.0,Exercise Angina Present,0.0,Up,1 Vessel(s),Normal,0,Cleveland
+35.0,Male,Asymptomatic,126.0,282.0,Below 120,LV Hypertrophy,156.0,Exercise Angina Present,0.0,Up,0 Vessel(s),Reversable Defect,1,Cleveland
+45.0,Female,Atypical Angina,112.0,160.0,Below 120,Normal,138.0,Exercise Angina Absent,0.0,Flat,0 Vessel(s),Normal,0,Cleveland
+70.0,Male,Nonanginal Pain,160.0,269.0,Below 120,Normal,112.0,Exercise Angina Present,2.9,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+53.0,Male,Asymptomatic,142.0,226.0,Below 120,LV Hypertrophy,111.0,Exercise Angina Present,0.0,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+59.0,Female,Asymptomatic,174.0,249.0,Below 120,Normal,143.0,Exercise Angina Present,0.0,Flat,0 Vessel(s),Normal,1,Cleveland
+62.0,Female,Asymptomatic,140.0,394.0,Below 120,LV Hypertrophy,157.0,Exercise Angina Absent,1.2,Flat,0 Vessel(s),Normal,0,Cleveland
+64.0,Male,Asymptomatic,145.0,212.0,Below 120,LV Hypertrophy,132.0,Exercise Angina Absent,2.0,Flat,2 Vessel(s),Fixed Defect,1,Cleveland
+57.0,Male,Asymptomatic,152.0,274.0,Below 120,Normal,88.0,Exercise Angina Present,1.2,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+52.0,Male,Asymptomatic,108.0,233.0,Above 120,Normal,147.0,Exercise Angina Absent,0.1,Up,3 Vessel(s),Reversable Defect,0,Cleveland
+56.0,Male,Asymptomatic,132.0,184.0,Below 120,LV Hypertrophy,105.0,Exercise Angina Present,2.1,Flat,1 Vessel(s),Fixed Defect,1,Cleveland
+43.0,Male,Nonanginal Pain,130.0,315.0,Below 120,Normal,162.0,Exercise Angina Absent,1.9,Up,1 Vessel(s),Normal,0,Cleveland
+53.0,Male,Nonanginal Pain,130.0,246.0,Above 120,LV Hypertrophy,173.0,Exercise Angina Absent,0.0,Up,3 Vessel(s),Normal,0,Cleveland
+48.0,Male,Asymptomatic,124.0,274.0,Below 120,LV Hypertrophy,166.0,Exercise Angina Absent,0.5,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+56.0,Female,Asymptomatic,134.0,409.0,Below 120,LV Hypertrophy,150.0,Exercise Angina Present,1.9,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+42.0,Male,Typical Angina,148.0,244.0,Below 120,LV Hypertrophy,178.0,Exercise Angina Absent,0.8,Up,2 Vessel(s),Normal,0,Cleveland
+59.0,Male,Typical Angina,178.0,270.0,Below 120,LV Hypertrophy,145.0,Exercise Angina Absent,4.2,Down,0 Vessel(s),Reversable Defect,0,Cleveland
+60.0,Female,Asymptomatic,158.0,305.0,Below 120,LV Hypertrophy,161.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,1,Cleveland
+63.0,Female,Atypical Angina,140.0,195.0,Below 120,Normal,179.0,Exercise Angina Absent,0.0,Up,2 Vessel(s),Normal,0,Cleveland
+42.0,Male,Nonanginal Pain,120.0,240.0,Above 120,Normal,194.0,Exercise Angina Absent,0.8,Down,0 Vessel(s),Reversable Defect,0,Cleveland
+66.0,Male,Atypical Angina,160.0,246.0,Below 120,Normal,120.0,Exercise Angina Present,0.0,Flat,3 Vessel(s),Fixed Defect,1,Cleveland
+54.0,Male,Atypical Angina,192.0,283.0,Below 120,LV Hypertrophy,195.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Reversable Defect,1,Cleveland
+69.0,Male,Nonanginal Pain,140.0,254.0,Below 120,LV Hypertrophy,146.0,Exercise Angina Absent,2.0,Flat,3 Vessel(s),Reversable Defect,1,Cleveland
+50.0,Male,Nonanginal Pain,129.0,196.0,Below 120,Normal,163.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+51.0,Male,Asymptomatic,140.0,298.0,Below 120,Normal,122.0,Exercise Angina Present,4.2,Flat,3 Vessel(s),Reversable Defect,1,Cleveland
+43.0,Male,Asymptomatic,132.0,247.0,Above 120,LV Hypertrophy,143.0,Exercise Angina Present,0.1,Flat,,Reversable Defect,1,Cleveland
+62.0,Female,Asymptomatic,138.0,294.0,Above 120,Normal,106.0,Exercise Angina Absent,1.9,Flat,3 Vessel(s),Normal,1,Cleveland
+68.0,Female,Nonanginal Pain,120.0,211.0,Below 120,LV Hypertrophy,115.0,Exercise Angina Absent,1.5,Flat,0 Vessel(s),Normal,0,Cleveland
+67.0,Male,Asymptomatic,100.0,299.0,Below 120,LV Hypertrophy,125.0,Exercise Angina Present,0.9,Flat,2 Vessel(s),Normal,1,Cleveland
+69.0,Male,Typical Angina,160.0,234.0,Above 120,LV Hypertrophy,131.0,Exercise Angina Absent,0.1,Flat,1 Vessel(s),Normal,0,Cleveland
+45.0,Female,Asymptomatic,138.0,236.0,Below 120,LV Hypertrophy,152.0,Exercise Angina Present,0.2,Flat,0 Vessel(s),Normal,0,Cleveland
+50.0,Female,Atypical Angina,120.0,244.0,Below 120,Normal,162.0,Exercise Angina Absent,1.1,Up,0 Vessel(s),Normal,0,Cleveland
+59.0,Male,Typical Angina,160.0,273.0,Below 120,LV Hypertrophy,125.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,1,Cleveland
+50.0,Female,Asymptomatic,110.0,254.0,Below 120,LV Hypertrophy,159.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+64.0,Female,Asymptomatic,180.0,325.0,Below 120,Normal,154.0,Exercise Angina Present,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+57.0,Male,Nonanginal Pain,150.0,126.0,Above 120,Normal,173.0,Exercise Angina Absent,0.2,Up,1 Vessel(s),Reversable Defect,0,Cleveland
+64.0,Female,Nonanginal Pain,140.0,313.0,Below 120,Normal,133.0,Exercise Angina Absent,0.2,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+43.0,Male,Asymptomatic,110.0,211.0,Below 120,Normal,161.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+45.0,Male,Asymptomatic,142.0,309.0,Below 120,LV Hypertrophy,147.0,Exercise Angina Present,0.0,Flat,3 Vessel(s),Reversable Defect,1,Cleveland
+58.0,Male,Asymptomatic,128.0,259.0,Below 120,LV Hypertrophy,130.0,Exercise Angina Present,3.0,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+50.0,Male,Asymptomatic,144.0,200.0,Below 120,LV Hypertrophy,126.0,Exercise Angina Present,0.9,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+55.0,Male,Atypical Angina,130.0,262.0,Below 120,Normal,155.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+62.0,Female,Asymptomatic,150.0,244.0,Below 120,Normal,154.0,Exercise Angina Present,1.4,Flat,0 Vessel(s),Normal,1,Cleveland
+37.0,Female,Nonanginal Pain,120.0,215.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+38.0,Male,Typical Angina,120.0,231.0,Below 120,Normal,182.0,Exercise Angina Present,3.8,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+41.0,Male,Nonanginal Pain,130.0,214.0,Below 120,LV Hypertrophy,168.0,Exercise Angina Absent,2.0,Flat,0 Vessel(s),Normal,0,Cleveland
+66.0,Female,Asymptomatic,178.0,228.0,Above 120,Normal,165.0,Exercise Angina Present,1.0,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+52.0,Male,Asymptomatic,112.0,230.0,Below 120,Normal,160.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Normal,1,Cleveland
+56.0,Male,Typical Angina,120.0,193.0,Below 120,LV Hypertrophy,162.0,Exercise Angina Absent,1.9,Flat,0 Vessel(s),Reversable Defect,0,Cleveland
+46.0,Female,Atypical Angina,105.0,204.0,Below 120,Normal,172.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+46.0,Female,Asymptomatic,138.0,243.0,Below 120,LV Hypertrophy,152.0,Exercise Angina Present,0.0,Flat,0 Vessel(s),Normal,0,Cleveland
+64.0,Female,Asymptomatic,130.0,303.0,Below 120,Normal,122.0,Exercise Angina Absent,2.0,Flat,2 Vessel(s),Normal,0,Cleveland
+59.0,Male,Asymptomatic,138.0,271.0,Below 120,LV Hypertrophy,182.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+41.0,Female,Nonanginal Pain,112.0,268.0,Below 120,LV Hypertrophy,172.0,Exercise Angina Present,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+54.0,Female,Nonanginal Pain,108.0,267.0,Below 120,LV Hypertrophy,167.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+39.0,Female,Nonanginal Pain,94.0,199.0,Below 120,Normal,179.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+53.0,Male,Asymptomatic,123.0,282.0,Below 120,Normal,95.0,Exercise Angina Present,2.0,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+63.0,Female,Asymptomatic,108.0,269.0,Below 120,Normal,169.0,Exercise Angina Present,1.8,Flat,2 Vessel(s),Normal,1,Cleveland
+34.0,Female,Atypical Angina,118.0,210.0,Below 120,Normal,192.0,Exercise Angina Absent,0.7,Up,0 Vessel(s),Normal,0,Cleveland
+47.0,Male,Asymptomatic,112.0,204.0,Below 120,Normal,143.0,Exercise Angina Absent,0.1,Up,0 Vessel(s),Normal,0,Cleveland
+67.0,Female,Nonanginal Pain,152.0,277.0,Below 120,Normal,172.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Normal,0,Cleveland
+54.0,Male,Asymptomatic,110.0,206.0,Below 120,LV Hypertrophy,108.0,Exercise Angina Present,0.0,Flat,1 Vessel(s),Normal,1,Cleveland
+66.0,Male,Asymptomatic,112.0,212.0,Below 120,LV Hypertrophy,132.0,Exercise Angina Present,0.1,Up,1 Vessel(s),Normal,1,Cleveland
+52.0,Female,Nonanginal Pain,136.0,196.0,Below 120,LV Hypertrophy,169.0,Exercise Angina Absent,0.1,Flat,0 Vessel(s),Normal,0,Cleveland
+55.0,Female,Asymptomatic,180.0,327.0,Below 120,ST-T Abnormality,117.0,Exercise Angina Present,3.4,Flat,0 Vessel(s),Normal,1,Cleveland
+49.0,Male,Nonanginal Pain,118.0,149.0,Below 120,LV Hypertrophy,126.0,Exercise Angina Absent,0.8,Up,3 Vessel(s),Normal,1,Cleveland
+74.0,Female,Atypical Angina,120.0,269.0,Below 120,LV Hypertrophy,121.0,Exercise Angina Present,0.2,Up,1 Vessel(s),Normal,0,Cleveland
+54.0,Female,Nonanginal Pain,160.0,201.0,Below 120,Normal,163.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Normal,0,Cleveland
+54.0,Male,Asymptomatic,122.0,286.0,Below 120,LV Hypertrophy,116.0,Exercise Angina Present,3.2,Flat,2 Vessel(s),Normal,1,Cleveland
+56.0,Male,Asymptomatic,130.0,283.0,Above 120,LV Hypertrophy,103.0,Exercise Angina Present,1.6,Down,0 Vessel(s),Reversable Defect,1,Cleveland
+46.0,Male,Asymptomatic,120.0,249.0,Below 120,LV Hypertrophy,144.0,Exercise Angina Absent,0.8,Up,0 Vessel(s),Reversable Defect,1,Cleveland
+49.0,Female,Atypical Angina,134.0,271.0,Below 120,Normal,162.0,Exercise Angina Absent,0.0,Flat,0 Vessel(s),Normal,0,Cleveland
+42.0,Male,Atypical Angina,120.0,295.0,Below 120,Normal,162.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+41.0,Male,Atypical Angina,110.0,235.0,Below 120,Normal,153.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+41.0,Female,Atypical Angina,126.0,306.0,Below 120,Normal,163.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+49.0,Female,Asymptomatic,130.0,269.0,Below 120,Normal,163.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+61.0,Male,Typical Angina,134.0,234.0,Below 120,Normal,145.0,Exercise Angina Absent,2.6,Flat,2 Vessel(s),Normal,1,Cleveland
+60.0,Female,Nonanginal Pain,120.0,178.0,Above 120,Normal,96.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+67.0,Male,Asymptomatic,120.0,237.0,Below 120,Normal,71.0,Exercise Angina Absent,1.0,Flat,0 Vessel(s),Normal,1,Cleveland
+58.0,Male,Asymptomatic,100.0,234.0,Below 120,Normal,156.0,Exercise Angina Absent,0.1,Up,1 Vessel(s),Reversable Defect,1,Cleveland
+47.0,Male,Asymptomatic,110.0,275.0,Below 120,LV Hypertrophy,118.0,Exercise Angina Present,1.0,Flat,1 Vessel(s),Normal,1,Cleveland
+52.0,Male,Asymptomatic,125.0,212.0,Below 120,Normal,168.0,Exercise Angina Absent,1.0,Up,2 Vessel(s),Reversable Defect,1,Cleveland
+62.0,Male,Atypical Angina,128.0,208.0,Above 120,LV Hypertrophy,140.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+57.0,Male,Asymptomatic,110.0,201.0,Below 120,Normal,126.0,Exercise Angina Present,1.5,Flat,0 Vessel(s),Fixed Defect,0,Cleveland
+58.0,Male,Asymptomatic,146.0,218.0,Below 120,Normal,105.0,Exercise Angina Absent,2.0,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+64.0,Male,Asymptomatic,128.0,263.0,Below 120,Normal,105.0,Exercise Angina Present,0.2,Flat,1 Vessel(s),Reversable Defect,0,Cleveland
+51.0,Female,Nonanginal Pain,120.0,295.0,Below 120,LV Hypertrophy,157.0,Exercise Angina Absent,0.6,Up,0 Vessel(s),Normal,0,Cleveland
+43.0,Male,Asymptomatic,115.0,303.0,Below 120,Normal,181.0,Exercise Angina Absent,1.2,Flat,0 Vessel(s),Normal,0,Cleveland
+42.0,Female,Nonanginal Pain,120.0,209.0,Below 120,Normal,173.0,Exercise Angina Absent,0.0,Flat,0 Vessel(s),Normal,0,Cleveland
+67.0,Female,Asymptomatic,106.0,223.0,Below 120,Normal,142.0,Exercise Angina Absent,0.3,Up,2 Vessel(s),Normal,0,Cleveland
+76.0,Female,Nonanginal Pain,140.0,197.0,Below 120,ST-T Abnormality,116.0,Exercise Angina Absent,1.1,Flat,0 Vessel(s),Normal,0,Cleveland
+70.0,Male,Atypical Angina,156.0,245.0,Below 120,LV Hypertrophy,143.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+57.0,Male,Atypical Angina,124.0,261.0,Below 120,Normal,141.0,Exercise Angina Absent,0.3,Up,0 Vessel(s),Reversable Defect,1,Cleveland
+44.0,Female,Nonanginal Pain,118.0,242.0,Below 120,Normal,149.0,Exercise Angina Absent,0.3,Flat,1 Vessel(s),Normal,0,Cleveland
+58.0,Female,Atypical Angina,136.0,319.0,Above 120,LV Hypertrophy,152.0,Exercise Angina Absent,0.0,Up,2 Vessel(s),Normal,1,Cleveland
+60.0,Female,Typical Angina,150.0,240.0,Below 120,Normal,171.0,Exercise Angina Absent,0.9,Up,0 Vessel(s),Normal,0,Cleveland
+44.0,Male,Nonanginal Pain,120.0,226.0,Below 120,Normal,169.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+61.0,Male,Asymptomatic,138.0,166.0,Below 120,LV Hypertrophy,125.0,Exercise Angina Present,3.6,Flat,1 Vessel(s),Normal,1,Cleveland
+42.0,Male,Asymptomatic,136.0,315.0,Below 120,Normal,125.0,Exercise Angina Present,1.8,Flat,0 Vessel(s),Fixed Defect,1,Cleveland
+52.0,Male,Asymptomatic,128.0,204.0,Above 120,Normal,156.0,Exercise Angina Present,1.0,Flat,0 Vessel(s),,1,Cleveland
+59.0,Male,Nonanginal Pain,126.0,218.0,Above 120,Normal,134.0,Exercise Angina Absent,2.2,Flat,1 Vessel(s),Fixed Defect,1,Cleveland
+40.0,Male,Asymptomatic,152.0,223.0,Below 120,Normal,181.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Reversable Defect,1,Cleveland
+42.0,Male,Nonanginal Pain,130.0,180.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+61.0,Male,Asymptomatic,140.0,207.0,Below 120,LV Hypertrophy,138.0,Exercise Angina Present,1.9,Up,1 Vessel(s),Reversable Defect,1,Cleveland
+66.0,Male,Asymptomatic,160.0,228.0,Below 120,LV Hypertrophy,138.0,Exercise Angina Absent,2.3,Up,0 Vessel(s),Fixed Defect,0,Cleveland
+46.0,Male,Asymptomatic,140.0,311.0,Below 120,Normal,120.0,Exercise Angina Present,1.8,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+71.0,Female,Asymptomatic,112.0,149.0,Below 120,Normal,125.0,Exercise Angina Absent,1.6,Flat,0 Vessel(s),Normal,0,Cleveland
+59.0,Male,Typical Angina,134.0,204.0,Below 120,Normal,162.0,Exercise Angina Absent,0.8,Up,2 Vessel(s),Normal,1,Cleveland
+64.0,Male,Typical Angina,170.0,227.0,Below 120,LV Hypertrophy,155.0,Exercise Angina Absent,0.6,Flat,0 Vessel(s),Reversable Defect,0,Cleveland
+66.0,Female,Nonanginal Pain,146.0,278.0,Below 120,LV Hypertrophy,152.0,Exercise Angina Absent,0.0,Flat,1 Vessel(s),Normal,0,Cleveland
+39.0,Female,Nonanginal Pain,138.0,220.0,Below 120,Normal,152.0,Exercise Angina Absent,0.0,Flat,0 Vessel(s),Normal,0,Cleveland
+57.0,Male,Atypical Angina,154.0,232.0,Below 120,LV Hypertrophy,164.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Normal,1,Cleveland
+58.0,Female,Asymptomatic,130.0,197.0,Below 120,Normal,131.0,Exercise Angina Absent,0.6,Flat,0 Vessel(s),Normal,0,Cleveland
+57.0,Male,Asymptomatic,110.0,335.0,Below 120,Normal,143.0,Exercise Angina Present,3.0,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+47.0,Male,Nonanginal Pain,130.0,253.0,Below 120,Normal,179.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+55.0,Female,Asymptomatic,128.0,205.0,Below 120,ST-T Abnormality,130.0,Exercise Angina Present,2.0,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+35.0,Male,Atypical Angina,122.0,192.0,Below 120,Normal,174.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+61.0,Male,Asymptomatic,148.0,203.0,Below 120,Normal,161.0,Exercise Angina Absent,0.0,Up,1 Vessel(s),Reversable Defect,1,Cleveland
+58.0,Male,Asymptomatic,114.0,318.0,Below 120,ST-T Abnormality,140.0,Exercise Angina Absent,4.4,Down,3 Vessel(s),Fixed Defect,1,Cleveland
+58.0,Female,Asymptomatic,170.0,225.0,Above 120,LV Hypertrophy,146.0,Exercise Angina Present,2.8,Flat,2 Vessel(s),Fixed Defect,1,Cleveland
+58.0,Male,Atypical Angina,125.0,220.0,Below 120,Normal,144.0,Exercise Angina Absent,0.4,Flat,,Reversable Defect,0,Cleveland
+56.0,Male,Atypical Angina,130.0,221.0,Below 120,LV Hypertrophy,163.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Reversable Defect,0,Cleveland
+56.0,Male,Atypical Angina,120.0,240.0,Below 120,Normal,169.0,Exercise Angina Absent,0.0,Down,0 Vessel(s),Normal,0,Cleveland
+67.0,Male,Nonanginal Pain,152.0,212.0,Below 120,LV Hypertrophy,150.0,Exercise Angina Absent,0.8,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+55.0,Female,Atypical Angina,132.0,342.0,Below 120,Normal,166.0,Exercise Angina Absent,1.2,Up,0 Vessel(s),Normal,0,Cleveland
+44.0,Male,Asymptomatic,120.0,169.0,Below 120,Normal,144.0,Exercise Angina Present,2.8,Down,0 Vessel(s),Fixed Defect,1,Cleveland
+63.0,Male,Asymptomatic,140.0,187.0,Below 120,LV Hypertrophy,144.0,Exercise Angina Present,4.0,Up,2 Vessel(s),Reversable Defect,1,Cleveland
+63.0,Female,Asymptomatic,124.0,197.0,Below 120,Normal,136.0,Exercise Angina Present,0.0,Flat,0 Vessel(s),Normal,1,Cleveland
+41.0,Male,Atypical Angina,120.0,157.0,Below 120,Normal,182.0,Exercise Angina Absent,0.0,Up,0 Vessel(s),Normal,0,Cleveland
+59.0,Male,Asymptomatic,164.0,176.0,Above 120,LV Hypertrophy,90.0,Exercise Angina Absent,1.0,Flat,2 Vessel(s),Fixed Defect,1,Cleveland
+57.0,Female,Asymptomatic,140.0,241.0,Below 120,Normal,123.0,Exercise Angina Present,0.2,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+45.0,Male,Typical Angina,110.0,264.0,Below 120,Normal,132.0,Exercise Angina Absent,1.2,Flat,0 Vessel(s),Reversable Defect,1,Cleveland
+68.0,Male,Asymptomatic,144.0,193.0,Above 120,Normal,141.0,Exercise Angina Absent,3.4,Flat,2 Vessel(s),Reversable Defect,1,Cleveland
+57.0,Male,Asymptomatic,130.0,131.0,Below 120,Normal,115.0,Exercise Angina Present,1.2,Flat,1 Vessel(s),Reversable Defect,1,Cleveland
+57.0,Female,Atypical Angina,130.0,236.0,Below 120,LV Hypertrophy,174.0,Exercise Angina Absent,0.0,Flat,1 Vessel(s),Normal,1,Cleveland
+38.0,Male,Nonanginal Pain,138.0,175.0,Below 120,Normal,173.0,Exercise Angina Absent,0.0,Up,,Normal,0,Cleveland
+28.0,Male,Atypical Angina,130.0,132.0,Below 120,LV Hypertrophy,185.0,Exercise Angina Absent,0.0,,,,0,Budapest
+29.0,Male,Atypical Angina,120.0,243.0,Below 120,Normal,160.0,Exercise Angina Absent,0.0,,,,0,Budapest
+29.0,Male,Atypical Angina,140.0,,Below 120,Normal,170.0,Exercise Angina Absent,0.0,,,,0,Budapest
+30.0,Female,Typical Angina,170.0,237.0,Below 120,ST-T Abnormality,170.0,Exercise Angina Absent,0.0,,,Fixed Defect,0,Budapest
+31.0,Female,Atypical Angina,100.0,219.0,Below 120,ST-T Abnormality,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+32.0,Female,Atypical Angina,105.0,198.0,Below 120,Normal,165.0,Exercise Angina Absent,0.0,,,,0,Budapest
+32.0,Male,Atypical Angina,110.0,225.0,Below 120,Normal,184.0,Exercise Angina Absent,0.0,,,,0,Budapest
+32.0,Male,Atypical Angina,125.0,254.0,Below 120,Normal,155.0,Exercise Angina Absent,0.0,,,,0,Budapest
+33.0,Male,Nonanginal Pain,120.0,298.0,Below 120,Normal,185.0,Exercise Angina Absent,0.0,,,,0,Budapest
+34.0,Female,Atypical Angina,130.0,161.0,Below 120,Normal,190.0,Exercise Angina Absent,0.0,,,,0,Budapest
+34.0,Male,Atypical Angina,150.0,214.0,Below 120,ST-T Abnormality,168.0,Exercise Angina Absent,0.0,,,,0,Budapest
+34.0,Male,Atypical Angina,98.0,220.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+35.0,Female,Typical Angina,120.0,160.0,Below 120,ST-T Abnormality,185.0,Exercise Angina Absent,0.0,,,,0,Budapest
+35.0,Female,Asymptomatic,140.0,167.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+35.0,Male,Atypical Angina,120.0,308.0,Below 120,LV Hypertrophy,180.0,Exercise Angina Absent,0.0,,,,0,Budapest
+35.0,Male,Atypical Angina,150.0,264.0,Below 120,Normal,168.0,Exercise Angina Absent,0.0,,,,0,Budapest
+36.0,Male,Atypical Angina,120.0,166.0,Below 120,Normal,180.0,Exercise Angina Absent,0.0,,,,0,Budapest
+36.0,Male,Nonanginal Pain,112.0,340.0,Below 120,Normal,184.0,Exercise Angina Absent,1.0,Flat,,Normal,0,Budapest
+36.0,Male,Nonanginal Pain,130.0,209.0,Below 120,Normal,178.0,Exercise Angina Absent,0.0,,,,0,Budapest
+36.0,Male,Nonanginal Pain,150.0,160.0,Below 120,Normal,172.0,Exercise Angina Absent,0.0,,,,0,Budapest
+37.0,Female,Atypical Angina,120.0,260.0,Below 120,Normal,130.0,Exercise Angina Absent,0.0,,,,0,Budapest
+37.0,Female,Nonanginal Pain,130.0,211.0,Below 120,Normal,142.0,Exercise Angina Absent,0.0,,,,0,Budapest
+37.0,Female,Asymptomatic,130.0,173.0,Below 120,ST-T Abnormality,184.0,Exercise Angina Absent,0.0,,,,0,Budapest
+37.0,Male,Atypical Angina,130.0,283.0,Below 120,ST-T Abnormality,98.0,Exercise Angina Absent,0.0,,,,0,Budapest
+37.0,Male,Nonanginal Pain,130.0,194.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+37.0,Male,Asymptomatic,120.0,223.0,Below 120,Normal,168.0,Exercise Angina Absent,0.0,,,Normal,0,Budapest
+37.0,Male,Asymptomatic,130.0,315.0,Below 120,Normal,158.0,Exercise Angina Absent,0.0,,,,0,Budapest
+38.0,Female,Atypical Angina,120.0,275.0,,Normal,129.0,Exercise Angina Absent,0.0,,,,0,Budapest
+38.0,Male,Atypical Angina,140.0,297.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+38.0,Male,Nonanginal Pain,145.0,292.0,Below 120,Normal,130.0,Exercise Angina Absent,0.0,,,,0,Budapest
+39.0,Female,Nonanginal Pain,110.0,182.0,Below 120,ST-T Abnormality,180.0,Exercise Angina Absent,0.0,,,,0,Budapest
+39.0,Male,Atypical Angina,120.0,,Below 120,ST-T Abnormality,146.0,Exercise Angina Absent,2.0,Up,,,0,Budapest
+39.0,Male,Atypical Angina,120.0,200.0,Below 120,Normal,160.0,Exercise Angina Present,1.0,Flat,,,0,Budapest
+39.0,Male,Atypical Angina,120.0,204.0,Below 120,Normal,145.0,Exercise Angina Absent,0.0,,,,0,Budapest
+39.0,Male,Atypical Angina,130.0,,Below 120,Normal,120.0,Exercise Angina Absent,0.0,,,,0,Budapest
+39.0,Male,Atypical Angina,190.0,241.0,Below 120,Normal,106.0,Exercise Angina Absent,0.0,,,,0,Budapest
+39.0,Male,Nonanginal Pain,120.0,339.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,,,,0,Budapest
+39.0,Male,Nonanginal Pain,160.0,147.0,Above 120,Normal,160.0,Exercise Angina Absent,0.0,,,,0,Budapest
+39.0,Male,Asymptomatic,110.0,273.0,Below 120,Normal,132.0,Exercise Angina Absent,0.0,,,,0,Budapest
+39.0,Male,Asymptomatic,130.0,307.0,Below 120,Normal,140.0,Exercise Angina Absent,0.0,,,,0,Budapest
+40.0,Male,Atypical Angina,130.0,275.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+40.0,Male,Atypical Angina,140.0,289.0,Below 120,Normal,172.0,Exercise Angina Absent,0.0,,,,0,Budapest
+40.0,Male,Nonanginal Pain,130.0,215.0,Below 120,Normal,138.0,Exercise Angina Absent,0.0,,,,0,Budapest
+40.0,Male,Nonanginal Pain,130.0,281.0,Below 120,Normal,167.0,Exercise Angina Absent,0.0,,,,0,Budapest
+40.0,Male,Nonanginal Pain,140.0,,Below 120,Normal,188.0,Exercise Angina Absent,0.0,,,,0,Budapest
+41.0,Female,Atypical Angina,110.0,250.0,Below 120,ST-T Abnormality,142.0,Exercise Angina Absent,0.0,,,,0,Budapest
+41.0,Female,Atypical Angina,125.0,184.0,Below 120,Normal,180.0,Exercise Angina Absent,0.0,,,,0,Budapest
+41.0,Female,Atypical Angina,130.0,245.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+41.0,Male,Atypical Angina,120.0,291.0,Below 120,ST-T Abnormality,160.0,Exercise Angina Absent,0.0,,,,0,Budapest
+41.0,Male,Atypical Angina,120.0,295.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,,,,0,Budapest
+41.0,Male,Atypical Angina,125.0,269.0,Below 120,Normal,144.0,Exercise Angina Absent,0.0,,,,0,Budapest
+41.0,Male,Asymptomatic,112.0,250.0,Below 120,Normal,142.0,Exercise Angina Absent,0.0,,,,0,Budapest
+42.0,Female,Nonanginal Pain,115.0,211.0,Below 120,ST-T Abnormality,137.0,Exercise Angina Absent,0.0,,,,0,Budapest
+42.0,Male,Atypical Angina,120.0,196.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+42.0,Male,Atypical Angina,120.0,198.0,Below 120,Normal,155.0,Exercise Angina Absent,0.0,,,,0,Budapest
+42.0,Male,Atypical Angina,150.0,268.0,Below 120,Normal,136.0,Exercise Angina Absent,0.0,,,,0,Budapest
+42.0,Male,Nonanginal Pain,120.0,228.0,Below 120,Normal,152.0,Exercise Angina Present,1.5,Flat,,,0,Budapest
+42.0,Male,Nonanginal Pain,160.0,147.0,Below 120,Normal,146.0,Exercise Angina Absent,0.0,,,,0,Budapest
+42.0,Male,Asymptomatic,140.0,358.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,,,,0,Budapest
+43.0,Female,Typical Angina,100.0,223.0,Below 120,Normal,142.0,Exercise Angina Absent,0.0,,,,0,Budapest
+43.0,Female,Atypical Angina,120.0,201.0,Below 120,Normal,165.0,Exercise Angina Absent,0.0,,,,0,Budapest
+43.0,Female,Atypical Angina,120.0,215.0,Below 120,ST-T Abnormality,175.0,Exercise Angina Absent,0.0,,,,0,Budapest
+43.0,Female,Atypical Angina,120.0,249.0,Below 120,ST-T Abnormality,176.0,Exercise Angina Absent,0.0,,,,0,Budapest
+43.0,Female,Atypical Angina,120.0,266.0,Below 120,Normal,118.0,Exercise Angina Absent,0.0,,,,0,Budapest
+43.0,Female,Atypical Angina,150.0,186.0,Below 120,Normal,154.0,Exercise Angina Absent,0.0,,,,0,Budapest
+43.0,Female,Nonanginal Pain,150.0,,Below 120,Normal,175.0,Exercise Angina Absent,0.0,,,Normal,0,Budapest
+43.0,Male,Atypical Angina,142.0,207.0,Below 120,Normal,138.0,Exercise Angina Absent,0.0,,,,0,Budapest
+44.0,Female,Asymptomatic,120.0,218.0,Below 120,ST-T Abnormality,115.0,Exercise Angina Absent,0.0,,,,0,Budapest
+44.0,Male,Atypical Angina,120.0,184.0,Below 120,Normal,142.0,Exercise Angina Absent,1.0,Flat,,,0,Budapest
+44.0,Male,Atypical Angina,130.0,215.0,Below 120,Normal,135.0,Exercise Angina Absent,0.0,,,,0,Budapest
+44.0,Male,Asymptomatic,150.0,412.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,,,,0,Budapest
+45.0,Female,Atypical Angina,130.0,237.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,,,,0,Budapest
+45.0,Female,Atypical Angina,180.0,,Below 120,Normal,180.0,Exercise Angina Absent,0.0,,,,0,Budapest
+45.0,Female,Asymptomatic,132.0,297.0,Below 120,Normal,144.0,Exercise Angina Absent,0.0,,,,0,Budapest
+45.0,Male,Atypical Angina,140.0,224.0,Above 120,Normal,122.0,Exercise Angina Absent,0.0,,,,0,Budapest
+45.0,Male,Nonanginal Pain,135.0,,Below 120,Normal,110.0,Exercise Angina Absent,0.0,,,,0,Budapest
+45.0,Male,Asymptomatic,120.0,225.0,Below 120,Normal,140.0,Exercise Angina Absent,0.0,,,,0,Budapest
+45.0,Male,Asymptomatic,140.0,224.0,Below 120,Normal,144.0,Exercise Angina Absent,0.0,,,,0,Budapest
+46.0,Female,Asymptomatic,130.0,238.0,Below 120,Normal,90.0,Exercise Angina Absent,0.0,,,,0,Budapest
+46.0,Male,Atypical Angina,140.0,275.0,Below 120,Normal,165.0,Exercise Angina Present,0.0,,,,0,Budapest
+46.0,Male,Nonanginal Pain,120.0,230.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+46.0,Male,Nonanginal Pain,150.0,163.0,,Normal,116.0,Exercise Angina Absent,0.0,,,,0,Budapest
+46.0,Male,Asymptomatic,110.0,238.0,Below 120,ST-T Abnormality,140.0,Exercise Angina Present,1.0,Flat,,Normal,0,Budapest
+46.0,Male,Asymptomatic,110.0,240.0,Below 120,ST-T Abnormality,140.0,Exercise Angina Absent,0.0,,,Normal,0,Budapest
+46.0,Male,Asymptomatic,180.0,280.0,Below 120,ST-T Abnormality,120.0,Exercise Angina Absent,0.0,,,,0,Budapest
+47.0,Female,Atypical Angina,140.0,257.0,Below 120,Normal,135.0,Exercise Angina Absent,1.0,Up,,,0,Budapest
+47.0,Female,Nonanginal Pain,130.0,,Below 120,Normal,145.0,Exercise Angina Absent,2.0,Flat,,,0,Budapest
+47.0,Male,Typical Angina,110.0,249.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+47.0,Male,Atypical Angina,160.0,263.0,Below 120,Normal,174.0,Exercise Angina Absent,0.0,,,,0,Budapest
+47.0,Male,Asymptomatic,140.0,276.0,Above 120,Normal,125.0,Exercise Angina Present,0.0,,,,0,Budapest
+48.0,Female,Atypical Angina,,308.0,Below 120,ST-T Abnormality,,,2.0,Up,,,0,Budapest
+48.0,Female,Atypical Angina,120.0,,Above 120,ST-T Abnormality,148.0,Exercise Angina Absent,0.0,,,,0,Budapest
+48.0,Female,Atypical Angina,120.0,284.0,Below 120,Normal,120.0,Exercise Angina Absent,0.0,,,,0,Budapest
+48.0,Female,Nonanginal Pain,120.0,195.0,Below 120,Normal,125.0,Exercise Angina Absent,0.0,,,,0,Budapest
+48.0,Female,Asymptomatic,108.0,163.0,Below 120,Normal,175.0,Exercise Angina Absent,2.0,Up,,,0,Budapest
+48.0,Female,Asymptomatic,120.0,254.0,Below 120,ST-T Abnormality,110.0,Exercise Angina Absent,0.0,,,,0,Budapest
+48.0,Female,Asymptomatic,150.0,227.0,Below 120,Normal,130.0,Exercise Angina Present,1.0,Flat,,,0,Budapest
+48.0,Male,Atypical Angina,100.0,,Below 120,Normal,100.0,Exercise Angina Absent,0.0,,,,0,Budapest
+48.0,Male,Atypical Angina,130.0,245.0,Below 120,Normal,160.0,Exercise Angina Absent,0.0,,,,0,Budapest
+48.0,Male,Atypical Angina,140.0,238.0,Below 120,Normal,118.0,Exercise Angina Absent,0.0,,,,0,Budapest
+48.0,Male,Nonanginal Pain,110.0,211.0,Below 120,Normal,138.0,Exercise Angina Absent,0.0,,,Fixed Defect,0,Budapest
+49.0,Female,Atypical Angina,110.0,,Below 120,Normal,160.0,Exercise Angina Absent,0.0,,,,0,Budapest
+49.0,Female,Atypical Angina,110.0,,Below 120,Normal,160.0,Exercise Angina Absent,0.0,,,,0,Budapest
+49.0,Female,Atypical Angina,124.0,201.0,Below 120,Normal,164.0,Exercise Angina Absent,0.0,,,,0,Budapest
+49.0,Female,Nonanginal Pain,130.0,207.0,Below 120,ST-T Abnormality,135.0,Exercise Angina Absent,0.0,,,,0,Budapest
+49.0,Male,Atypical Angina,100.0,253.0,Below 120,Normal,174.0,Exercise Angina Absent,0.0,,,,0,Budapest
+49.0,Male,Nonanginal Pain,140.0,187.0,Below 120,Normal,172.0,Exercise Angina Absent,0.0,,,,0,Budapest
+49.0,Male,Asymptomatic,120.0,297.0,,Normal,132.0,Exercise Angina Absent,1.0,Flat,,,0,Budapest
+49.0,Male,Asymptomatic,140.0,,Below 120,Normal,130.0,Exercise Angina Absent,0.0,,,,0,Budapest
+50.0,Female,Atypical Angina,110.0,202.0,Below 120,Normal,145.0,Exercise Angina Absent,0.0,,,,0,Budapest
+50.0,Female,Asymptomatic,120.0,328.0,Below 120,Normal,110.0,Exercise Angina Present,1.0,Flat,,,0,Budapest
+50.0,Male,Atypical Angina,120.0,168.0,Below 120,Normal,160.0,Exercise Angina Absent,0.0,,0 Vessel(s),,0,Budapest
+50.0,Male,Atypical Angina,140.0,216.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,,,Normal,0,Budapest
+50.0,Male,Atypical Angina,170.0,209.0,Below 120,ST-T Abnormality,116.0,Exercise Angina Absent,0.0,,,,0,Budapest
+50.0,Male,Asymptomatic,140.0,129.0,Below 120,Normal,135.0,Exercise Angina Absent,0.0,,,,0,Budapest
+50.0,Male,Asymptomatic,150.0,215.0,Below 120,Normal,140.0,Exercise Angina Present,0.0,,,,0,Budapest
+51.0,Female,Atypical Angina,160.0,194.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,,,,0,Budapest
+51.0,Female,Nonanginal Pain,110.0,190.0,Below 120,Normal,120.0,Exercise Angina Absent,0.0,,,,0,Budapest
+51.0,Female,Nonanginal Pain,130.0,220.0,Below 120,Normal,160.0,Exercise Angina Present,2.0,Up,,,0,Budapest
+51.0,Female,Nonanginal Pain,150.0,200.0,Below 120,Normal,120.0,Exercise Angina Absent,0.5,Up,,,0,Budapest
+51.0,Male,Atypical Angina,125.0,188.0,Below 120,Normal,145.0,Exercise Angina Absent,0.0,,,,0,Budapest
+51.0,Male,Atypical Angina,130.0,224.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+51.0,Male,Asymptomatic,130.0,179.0,Below 120,Normal,100.0,Exercise Angina Absent,0.0,,,Reversable Defect,0,Budapest
+52.0,Female,Atypical Angina,120.0,210.0,Below 120,Normal,148.0,Exercise Angina Absent,0.0,,,,0,Budapest
+52.0,Female,Atypical Angina,140.0,,Below 120,Normal,140.0,Exercise Angina Absent,0.0,,,,0,Budapest
+52.0,Female,Nonanginal Pain,125.0,272.0,Below 120,Normal,139.0,Exercise Angina Absent,0.0,,,,0,Budapest
+52.0,Female,Asymptomatic,130.0,180.0,Below 120,Normal,140.0,Exercise Angina Present,1.5,Flat,,,0,Budapest
+52.0,Male,Atypical Angina,120.0,284.0,Below 120,Normal,118.0,Exercise Angina Absent,0.0,,,,0,Budapest
+52.0,Male,Atypical Angina,140.0,100.0,Below 120,Normal,138.0,Exercise Angina Present,0.0,,,,0,Budapest
+52.0,Male,Atypical Angina,160.0,196.0,Below 120,Normal,165.0,Exercise Angina Absent,0.0,,,,0,Budapest
+52.0,Male,Nonanginal Pain,140.0,259.0,Below 120,ST-T Abnormality,170.0,Exercise Angina Absent,0.0,,,,0,Budapest
+53.0,Female,Atypical Angina,113.0,468.0,,Normal,127.0,Exercise Angina Absent,0.0,,,,0,Budapest
+53.0,Female,Atypical Angina,140.0,216.0,Below 120,Normal,142.0,Exercise Angina Present,2.0,Flat,,,0,Budapest
+53.0,Female,Nonanginal Pain,120.0,274.0,Below 120,Normal,130.0,Exercise Angina Absent,0.0,,,,0,Budapest
+53.0,Male,Atypical Angina,120.0,,Below 120,Normal,132.0,Exercise Angina Absent,0.0,,,,0,Budapest
+53.0,Male,Atypical Angina,140.0,320.0,Below 120,Normal,162.0,Exercise Angina Absent,0.0,,,,0,Budapest
+53.0,Male,Nonanginal Pain,120.0,195.0,Below 120,Normal,140.0,Exercise Angina Absent,0.0,,,,0,Budapest
+53.0,Male,Asymptomatic,124.0,260.0,Below 120,ST-T Abnormality,112.0,Exercise Angina Present,3.0,Flat,,,0,Budapest
+53.0,Male,Asymptomatic,130.0,182.0,Below 120,Normal,148.0,Exercise Angina Absent,0.0,,,,0,Budapest
+53.0,Male,Asymptomatic,140.0,243.0,Below 120,Normal,155.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Female,Atypical Angina,120.0,221.0,Below 120,Normal,138.0,Exercise Angina Absent,1.0,Up,,,0,Budapest
+54.0,Female,Atypical Angina,120.0,230.0,Above 120,Normal,140.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Female,Atypical Angina,120.0,273.0,Below 120,Normal,150.0,Exercise Angina Absent,1.5,Flat,,,0,Budapest
+54.0,Female,Atypical Angina,130.0,253.0,Below 120,ST-T Abnormality,155.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Female,Atypical Angina,140.0,309.0,,ST-T Abnormality,140.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Female,Atypical Angina,150.0,230.0,Below 120,Normal,130.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Female,Atypical Angina,160.0,312.0,Below 120,Normal,130.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Male,Typical Angina,120.0,171.0,Below 120,Normal,137.0,Exercise Angina Absent,2.0,Up,,,0,Budapest
+54.0,Male,Atypical Angina,110.0,208.0,Below 120,Normal,142.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Male,Atypical Angina,120.0,238.0,Below 120,Normal,154.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Male,Atypical Angina,120.0,246.0,Below 120,Normal,110.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Male,Atypical Angina,160.0,195.0,Below 120,ST-T Abnormality,130.0,Exercise Angina Absent,1.0,Up,,,0,Budapest
+54.0,Male,Atypical Angina,160.0,305.0,Below 120,Normal,175.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Male,Nonanginal Pain,120.0,217.0,Below 120,Normal,137.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Male,Nonanginal Pain,150.0,,Below 120,Normal,122.0,Exercise Angina Absent,0.0,,,,0,Budapest
+54.0,Male,Asymptomatic,150.0,365.0,Below 120,ST-T Abnormality,134.0,Exercise Angina Absent,1.0,Up,,,0,Budapest
+55.0,Female,Atypical Angina,110.0,344.0,Below 120,ST-T Abnormality,160.0,Exercise Angina Absent,0.0,,,,0,Budapest
+55.0,Female,Atypical Angina,122.0,320.0,Below 120,Normal,155.0,Exercise Angina Absent,0.0,,,,0,Budapest
+55.0,Female,Atypical Angina,130.0,394.0,Below 120,LV Hypertrophy,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+55.0,Male,Atypical Angina,120.0,256.0,Above 120,Normal,137.0,Exercise Angina Absent,0.0,,,Reversable Defect,0,Budapest
+55.0,Male,Atypical Angina,140.0,196.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,Reversable Defect,0,Budapest
+55.0,Male,Atypical Angina,145.0,326.0,Below 120,Normal,155.0,Exercise Angina Absent,0.0,,,,0,Budapest
+55.0,Male,Nonanginal Pain,110.0,277.0,Below 120,Normal,160.0,Exercise Angina Absent,0.0,,,,0,Budapest
+55.0,Male,Nonanginal Pain,120.0,220.0,Below 120,LV Hypertrophy,134.0,Exercise Angina Absent,0.0,,,,0,Budapest
+55.0,Male,Asymptomatic,120.0,270.0,Below 120,Normal,140.0,Exercise Angina Absent,0.0,,,,0,Budapest
+55.0,Male,Asymptomatic,140.0,229.0,Below 120,Normal,110.0,Exercise Angina Present,0.5,Flat,,,0,Budapest
+56.0,Female,Nonanginal Pain,130.0,219.0,,ST-T Abnormality,164.0,Exercise Angina Absent,0.0,,,Reversable Defect,0,Budapest
+56.0,Male,Atypical Angina,130.0,184.0,Below 120,Normal,100.0,Exercise Angina Absent,0.0,,,,0,Budapest
+56.0,Male,Nonanginal Pain,130.0,,Below 120,Normal,114.0,Exercise Angina Absent,0.0,,,,0,Budapest
+56.0,Male,Nonanginal Pain,130.0,276.0,Below 120,Normal,128.0,Exercise Angina Present,1.0,Up,,Fixed Defect,0,Budapest
+56.0,Male,Asymptomatic,120.0,85.0,Below 120,Normal,140.0,Exercise Angina Absent,0.0,,,,0,Budapest
+57.0,Female,Typical Angina,130.0,308.0,Below 120,Normal,98.0,Exercise Angina Absent,1.0,Flat,,,0,Budapest
+57.0,Female,Asymptomatic,180.0,347.0,Below 120,ST-T Abnormality,126.0,Exercise Angina Present,0.8,Flat,,,0,Budapest
+57.0,Male,Atypical Angina,140.0,260.0,Above 120,Normal,140.0,Exercise Angina Absent,0.0,,,Fixed Defect,0,Budapest
+58.0,Male,Atypical Angina,130.0,230.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+58.0,Male,Atypical Angina,130.0,251.0,Below 120,Normal,110.0,Exercise Angina Absent,0.0,,,,0,Budapest
+58.0,Male,Nonanginal Pain,140.0,179.0,Below 120,Normal,160.0,Exercise Angina Absent,0.0,,,,0,Budapest
+58.0,Male,Asymptomatic,135.0,222.0,Below 120,Normal,100.0,Exercise Angina Absent,0.0,,,,0,Budapest
+59.0,Female,Atypical Angina,130.0,188.0,Below 120,Normal,124.0,Exercise Angina Absent,1.0,Flat,,,0,Budapest
+59.0,Male,Atypical Angina,140.0,287.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,0,Budapest
+59.0,Male,Nonanginal Pain,130.0,318.0,Below 120,Normal,120.0,Exercise Angina Present,1.0,Flat,,Normal,0,Budapest
+59.0,Male,Nonanginal Pain,180.0,213.0,Below 120,Normal,100.0,Exercise Angina Absent,0.0,,,,0,Budapest
+59.0,Male,Asymptomatic,140.0,,Below 120,Normal,140.0,Exercise Angina Absent,0.0,,0 Vessel(s),,0,Budapest
+60.0,Male,Nonanginal Pain,120.0,246.0,Below 120,LV Hypertrophy,135.0,Exercise Angina Absent,0.0,,,,0,Budapest
+61.0,Female,Asymptomatic,130.0,294.0,Below 120,ST-T Abnormality,120.0,Exercise Angina Present,1.0,Flat,,,0,Budapest
+61.0,Male,Asymptomatic,125.0,292.0,Below 120,ST-T Abnormality,115.0,Exercise Angina Present,0.0,,,,0,Budapest
+62.0,Female,Typical Angina,160.0,193.0,Below 120,Normal,116.0,Exercise Angina Absent,0.0,,,,0,Budapest
+62.0,Male,Atypical Angina,140.0,271.0,Below 120,Normal,152.0,Exercise Angina Absent,1.0,Up,,,0,Budapest
+31.0,Male,Asymptomatic,120.0,270.0,Below 120,Normal,153.0,Exercise Angina Present,1.5,Flat,,,1,Budapest
+33.0,Female,Asymptomatic,100.0,246.0,Below 120,Normal,150.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+34.0,Male,Typical Angina,140.0,156.0,Below 120,Normal,180.0,Exercise Angina Absent,0.0,,,,1,Budapest
+35.0,Male,Atypical Angina,110.0,257.0,Below 120,Normal,140.0,Exercise Angina Absent,0.0,,,,1,Budapest
+36.0,Male,Atypical Angina,120.0,267.0,Below 120,Normal,160.0,Exercise Angina Absent,3.0,Flat,,,1,Budapest
+37.0,Male,Asymptomatic,140.0,207.0,Below 120,Normal,130.0,Exercise Angina Present,1.5,Flat,,,1,Budapest
+38.0,Male,Asymptomatic,110.0,196.0,Below 120,Normal,166.0,Exercise Angina Absent,0.0,,,,1,Budapest
+38.0,Male,Asymptomatic,120.0,282.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,,,,1,Budapest
+38.0,Male,Asymptomatic,92.0,117.0,Below 120,Normal,134.0,Exercise Angina Present,2.5,Flat,,,1,Budapest
+40.0,Male,Asymptomatic,120.0,466.0,,Normal,152.0,Exercise Angina Present,1.0,Flat,,Fixed Defect,1,Budapest
+41.0,Male,Asymptomatic,110.0,289.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,,,Fixed Defect,1,Budapest
+41.0,Male,Asymptomatic,120.0,237.0,,Normal,138.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+43.0,Male,Asymptomatic,150.0,247.0,Below 120,Normal,130.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+46.0,Male,Asymptomatic,110.0,202.0,Below 120,Normal,150.0,Exercise Angina Present,0.0,,,,1,Budapest
+46.0,Male,Asymptomatic,118.0,186.0,Below 120,Normal,124.0,Exercise Angina Absent,0.0,,,Reversable Defect,1,Budapest
+46.0,Male,Asymptomatic,120.0,277.0,Below 120,Normal,125.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+47.0,Male,Nonanginal Pain,140.0,193.0,Below 120,Normal,145.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+47.0,Male,Asymptomatic,150.0,226.0,Below 120,Normal,98.0,Exercise Angina Present,1.5,Flat,0 Vessel(s),Reversable Defect,1,Budapest
+48.0,Male,Asymptomatic,106.0,263.0,Above 120,Normal,110.0,Exercise Angina Absent,0.0,,,,1,Budapest
+48.0,Male,Asymptomatic,120.0,260.0,Below 120,Normal,115.0,Exercise Angina Absent,2.0,Flat,,,1,Budapest
+48.0,Male,Asymptomatic,160.0,268.0,Below 120,Normal,103.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+49.0,Female,Nonanginal Pain,160.0,180.0,Below 120,Normal,156.0,Exercise Angina Absent,1.0,Flat,,,1,Budapest
+49.0,Male,Nonanginal Pain,115.0,265.0,Below 120,Normal,175.0,Exercise Angina Absent,0.0,,,,1,Budapest
+49.0,Male,Asymptomatic,130.0,206.0,Below 120,Normal,170.0,Exercise Angina Absent,0.0,,,,1,Budapest
+50.0,Female,Nonanginal Pain,140.0,288.0,Below 120,Normal,140.0,Exercise Angina Present,0.0,,,Reversable Defect,1,Budapest
+50.0,Male,Asymptomatic,145.0,264.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,1,Budapest
+51.0,Female,Asymptomatic,160.0,303.0,Below 120,Normal,150.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+52.0,Male,Asymptomatic,130.0,225.0,Below 120,Normal,120.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+54.0,Male,Asymptomatic,125.0,216.0,Below 120,Normal,140.0,Exercise Angina Absent,0.0,,,,1,Budapest
+54.0,Male,Asymptomatic,125.0,224.0,Below 120,Normal,122.0,Exercise Angina Absent,2.0,Flat,,,1,Budapest
+55.0,Male,Asymptomatic,140.0,201.0,Below 120,Normal,130.0,Exercise Angina Present,3.0,Flat,,,1,Budapest
+57.0,Male,Atypical Angina,140.0,265.0,Below 120,ST-T Abnormality,145.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+58.0,Male,Nonanginal Pain,130.0,213.0,Below 120,ST-T Abnormality,140.0,Exercise Angina Absent,0.0,,,Fixed Defect,1,Budapest
+59.0,Female,Asymptomatic,130.0,338.0,Above 120,ST-T Abnormality,130.0,Exercise Angina Present,1.5,Flat,,,1,Budapest
+60.0,Male,Asymptomatic,100.0,248.0,Below 120,Normal,125.0,Exercise Angina Absent,1.0,Flat,,,1,Budapest
+63.0,Male,Asymptomatic,150.0,223.0,Below 120,Normal,115.0,Exercise Angina Absent,0.0,,,,1,Budapest
+65.0,Male,Asymptomatic,140.0,306.0,Above 120,Normal,87.0,Exercise Angina Present,1.5,Flat,,,1,Budapest
+32.0,Male,Asymptomatic,118.0,529.0,Below 120,Normal,130.0,Exercise Angina Absent,0.0,,,,1,Budapest
+38.0,Male,Asymptomatic,110.0,,Below 120,Normal,150.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+39.0,Male,Asymptomatic,110.0,280.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,Fixed Defect,1,Budapest
+40.0,Female,Asymptomatic,150.0,392.0,Below 120,Normal,130.0,Exercise Angina Absent,2.0,Flat,,Fixed Defect,1,Budapest
+43.0,Male,Typical Angina,120.0,291.0,Below 120,ST-T Abnormality,155.0,Exercise Angina Absent,0.0,,,,1,Budapest
+45.0,Male,Asymptomatic,130.0,219.0,Below 120,ST-T Abnormality,130.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+46.0,Male,Asymptomatic,120.0,231.0,Below 120,Normal,115.0,Exercise Angina Present,0.0,,,,1,Budapest
+46.0,Male,Asymptomatic,130.0,222.0,Below 120,Normal,112.0,Exercise Angina Absent,0.0,,,,1,Budapest
+48.0,Male,Asymptomatic,122.0,275.0,Above 120,ST-T Abnormality,150.0,Exercise Angina Present,2.0,Down,,,1,Budapest
+48.0,Male,Asymptomatic,160.0,193.0,Below 120,Normal,102.0,Exercise Angina Present,3.0,Flat,,,1,Budapest
+48.0,Male,Asymptomatic,160.0,329.0,Below 120,Normal,92.0,Exercise Angina Present,1.5,Flat,,,1,Budapest
+48.0,Male,Asymptomatic,160.0,355.0,Below 120,Normal,99.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+50.0,Male,Asymptomatic,130.0,233.0,Below 120,Normal,121.0,Exercise Angina Present,2.0,Flat,,Reversable Defect,1,Budapest
+52.0,Male,Asymptomatic,120.0,182.0,Below 120,Normal,150.0,Exercise Angina Absent,0.0,,,,1,Budapest
+52.0,Male,Asymptomatic,170.0,,Below 120,Normal,126.0,Exercise Angina Present,1.5,Flat,,,1,Budapest
+53.0,Male,Asymptomatic,120.0,246.0,Below 120,Normal,116.0,Exercise Angina Present,0.0,,,,1,Budapest
+54.0,Male,Nonanginal Pain,120.0,237.0,Below 120,Normal,150.0,Exercise Angina Present,1.5,,,Reversable Defect,1,Budapest
+54.0,Male,Asymptomatic,130.0,242.0,Below 120,Normal,91.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+54.0,Male,Asymptomatic,130.0,603.0,Above 120,Normal,125.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+54.0,Male,Asymptomatic,140.0,,Below 120,Normal,118.0,Exercise Angina Present,0.0,,,,1,Budapest
+54.0,Male,Asymptomatic,200.0,198.0,Below 120,Normal,142.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+55.0,Male,Asymptomatic,140.0,268.0,Below 120,Normal,128.0,Exercise Angina Present,1.5,Flat,,,1,Budapest
+56.0,Male,Asymptomatic,150.0,213.0,Above 120,Normal,125.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+57.0,Male,Asymptomatic,150.0,255.0,Below 120,Normal,92.0,Exercise Angina Present,3.0,Flat,,,1,Budapest
+58.0,Male,Nonanginal Pain,160.0,211.0,Above 120,ST-T Abnormality,92.0,Exercise Angina Absent,0.0,,,,1,Budapest
+58.0,Male,Asymptomatic,130.0,263.0,Below 120,Normal,140.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+41.0,Male,Asymptomatic,130.0,172.0,Below 120,ST-T Abnormality,130.0,Exercise Angina Absent,2.0,Flat,,,1,Budapest
+43.0,Male,Asymptomatic,120.0,175.0,Below 120,Normal,120.0,Exercise Angina Present,1.0,Flat,,Reversable Defect,1,Budapest
+44.0,Male,Atypical Angina,150.0,288.0,Below 120,Normal,150.0,Exercise Angina Present,3.0,Flat,,,1,Budapest
+44.0,Male,Asymptomatic,130.0,290.0,Below 120,Normal,100.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+46.0,Male,Typical Angina,140.0,272.0,Above 120,Normal,175.0,Exercise Angina Absent,2.0,Flat,,,1,Budapest
+47.0,Female,Nonanginal Pain,135.0,248.0,Above 120,Normal,170.0,Exercise Angina Absent,0.0,,,,1,Budapest
+48.0,Female,Asymptomatic,138.0,214.0,Below 120,Normal,108.0,Exercise Angina Present,1.5,Flat,,,1,Budapest
+49.0,Male,Asymptomatic,130.0,341.0,Below 120,Normal,120.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+49.0,Male,Asymptomatic,140.0,234.0,Below 120,Normal,140.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+51.0,Male,Nonanginal Pain,135.0,160.0,Below 120,Normal,150.0,Exercise Angina Absent,2.0,Flat,,,1,Budapest
+52.0,Male,Asymptomatic,112.0,342.0,Below 120,ST-T Abnormality,96.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+52.0,Male,Asymptomatic,130.0,298.0,Below 120,Normal,110.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+52.0,Male,Asymptomatic,140.0,404.0,Below 120,Normal,124.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+52.0,Male,Asymptomatic,160.0,246.0,Below 120,ST-T Abnormality,82.0,Exercise Angina Present,4.0,Flat,,,1,Budapest
+53.0,Male,Nonanginal Pain,145.0,518.0,Below 120,Normal,130.0,Exercise Angina Absent,0.0,,,,1,Budapest
+53.0,Male,Asymptomatic,180.0,285.0,Below 120,ST-T Abnormality,120.0,Exercise Angina Present,1.5,Flat,,,1,Budapest
+54.0,Male,Asymptomatic,140.0,216.0,Below 120,Normal,105.0,Exercise Angina Absent,1.5,Flat,,,1,Budapest
+55.0,Male,Typical Angina,140.0,295.0,Below 120,,136.0,Exercise Angina Absent,0.0,,,,1,Budapest
+55.0,Male,Atypical Angina,160.0,292.0,Above 120,Normal,143.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+55.0,Male,Asymptomatic,145.0,248.0,Below 120,Normal,96.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+56.0,Female,Atypical Angina,120.0,279.0,Below 120,Normal,150.0,Exercise Angina Absent,1.0,Flat,,,1,Budapest
+56.0,Male,Asymptomatic,150.0,230.0,Below 120,ST-T Abnormality,124.0,Exercise Angina Present,1.5,Flat,,,1,Budapest
+56.0,Male,Asymptomatic,170.0,388.0,Below 120,ST-T Abnormality,122.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+58.0,Male,Atypical Angina,136.0,164.0,Below 120,ST-T Abnormality,99.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+59.0,Male,Asymptomatic,130.0,,Below 120,Normal,125.0,Exercise Angina Absent,0.0,,,,1,Budapest
+59.0,Male,Asymptomatic,140.0,264.0,Above 120,LV Hypertrophy,119.0,Exercise Angina Present,0.0,,,,1,Budapest
+65.0,Male,Asymptomatic,170.0,263.0,Above 120,Normal,112.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+66.0,Male,Asymptomatic,140.0,,Below 120,Normal,94.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+41.0,Male,Asymptomatic,120.0,336.0,Below 120,Normal,118.0,Exercise Angina Present,3.0,Flat,,,1,Budapest
+43.0,Male,Asymptomatic,140.0,288.0,Below 120,Normal,135.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+44.0,Male,Asymptomatic,135.0,491.0,Below 120,Normal,135.0,Exercise Angina Absent,0.0,,,,1,Budapest
+47.0,Female,Asymptomatic,120.0,205.0,Below 120,Normal,98.0,Exercise Angina Present,2.0,Flat,,Fixed Defect,1,Budapest
+47.0,Male,Asymptomatic,160.0,291.0,Below 120,ST-T Abnormality,158.0,Exercise Angina Present,3.0,Flat,,,1,Budapest
+49.0,Male,Asymptomatic,128.0,212.0,Below 120,Normal,96.0,Exercise Angina Present,0.0,,,,1,Budapest
+49.0,Male,Asymptomatic,150.0,222.0,Below 120,Normal,122.0,Exercise Angina Absent,2.0,Flat,,,1,Budapest
+50.0,Male,Asymptomatic,140.0,231.0,Below 120,ST-T Abnormality,140.0,Exercise Angina Present,5.0,Flat,,,1,Budapest
+50.0,Male,Asymptomatic,140.0,341.0,Below 120,ST-T Abnormality,125.0,Exercise Angina Present,2.5,Flat,,,1,Budapest
+52.0,Male,Asymptomatic,140.0,266.0,Below 120,Normal,134.0,Exercise Angina Present,2.0,Flat,,,1,Budapest
+52.0,Male,Asymptomatic,160.0,331.0,Below 120,Normal,94.0,Exercise Angina Present,2.5,,,,1,Budapest
+54.0,Female,Nonanginal Pain,130.0,294.0,Below 120,ST-T Abnormality,100.0,Exercise Angina Present,0.0,Flat,,,1,Budapest
+56.0,Male,Asymptomatic,155.0,342.0,Above 120,Normal,150.0,Exercise Angina Present,3.0,Flat,,,1,Budapest
+58.0,Female,Atypical Angina,180.0,393.0,Below 120,Normal,110.0,Exercise Angina Present,1.0,Flat,,Reversable Defect,1,Budapest
+65.0,Male,Asymptomatic,130.0,275.0,Below 120,ST-T Abnormality,115.0,Exercise Angina Present,1.0,Flat,,,1,Budapest
+63.0,Male,Asymptomatic,140.0,260.0,Below 120,ST-T Abnormality,112.0,Exercise Angina Present,3.0,Flat,,,1,Long Beach
+44.0,Male,Asymptomatic,130.0,209.0,Below 120,ST-T Abnormality,127.0,Exercise Angina Absent,0.0,,,,0,Long Beach
+60.0,Male,Asymptomatic,132.0,218.0,Below 120,ST-T Abnormality,140.0,Exercise Angina Present,1.5,Down,,,1,Long Beach
+55.0,Male,Asymptomatic,142.0,228.0,Below 120,ST-T Abnormality,149.0,Exercise Angina Present,2.5,Up,,,1,Long Beach
+66.0,Male,Nonanginal Pain,110.0,213.0,Above 120,LV Hypertrophy,99.0,Exercise Angina Present,1.3,Flat,,,0,Long Beach
+66.0,Male,Nonanginal Pain,120.0,,Below 120,ST-T Abnormality,120.0,Exercise Angina Absent,-0.5,Up,,,0,Long Beach
+65.0,Male,Asymptomatic,150.0,236.0,Above 120,ST-T Abnormality,105.0,Exercise Angina Present,0.0,,,,1,Long Beach
+60.0,Male,Nonanginal Pain,180.0,,Below 120,ST-T Abnormality,140.0,Exercise Angina Present,1.5,Flat,,,0,Long Beach
+60.0,Male,Nonanginal Pain,120.0,,,Normal,141.0,Exercise Angina Present,2.0,Up,,,1,Long Beach
+60.0,Male,Atypical Angina,160.0,267.0,Above 120,ST-T Abnormality,157.0,Exercise Angina Absent,0.5,Flat,,,1,Long Beach
+56.0,Male,Atypical Angina,126.0,166.0,Below 120,ST-T Abnormality,140.0,Exercise Angina Absent,0.0,,,,0,Long Beach
+59.0,Male,Asymptomatic,140.0,,Below 120,ST-T Abnormality,117.0,Exercise Angina Present,1.0,Flat,,,1,Long Beach
+62.0,Male,Asymptomatic,110.0,,Below 120,Normal,120.0,Exercise Angina Present,0.5,Flat,,Normal,1,Long Beach
+63.0,Male,Nonanginal Pain,,,Below 120,LV Hypertrophy,,,,,,,1,Long Beach
+57.0,Male,Asymptomatic,128.0,,Above 120,ST-T Abnormality,148.0,Exercise Angina Present,1.0,Flat,,,1,Long Beach
+62.0,Male,Asymptomatic,120.0,220.0,Below 120,ST-T Abnormality,86.0,Exercise Angina Absent,0.0,,,,0,Long Beach
+63.0,Male,Asymptomatic,170.0,177.0,Below 120,Normal,84.0,Exercise Angina Present,2.5,Down,,,1,Long Beach
+46.0,Male,Asymptomatic,110.0,236.0,Below 120,Normal,125.0,Exercise Angina Present,2.0,Flat,,,1,Long Beach
+63.0,Male,Asymptomatic,126.0,,Below 120,ST-T Abnormality,120.0,Exercise Angina Absent,1.5,Down,,,0,Long Beach
+60.0,Male,Asymptomatic,152.0,,Below 120,ST-T Abnormality,118.0,Exercise Angina Present,0.0,,,Reversable Defect,0,Long Beach
+58.0,Male,Asymptomatic,116.0,,Below 120,Normal,124.0,Exercise Angina Absent,1.0,Up,,,1,Long Beach
+64.0,Male,Asymptomatic,120.0,,Above 120,ST-T Abnormality,106.0,Exercise Angina Absent,2.0,Flat,,,1,Long Beach
+63.0,Male,Nonanginal Pain,130.0,,Below 120,ST-T Abnormality,111.0,Exercise Angina Present,0.0,,,,1,Long Beach
+74.0,Male,Nonanginal Pain,,,Below 120,Normal,,,,,,,0,Long Beach
+52.0,Male,Nonanginal Pain,128.0,,Below 120,ST-T Abnormality,180.0,Exercise Angina Absent,3.0,Up,,,1,Long Beach
+69.0,Male,Asymptomatic,130.0,,Above 120,ST-T Abnormality,129.0,Exercise Angina Absent,1.0,Flat,,Fixed Defect,1,Long Beach
+51.0,Male,Asymptomatic,,,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+60.0,Male,Asymptomatic,130.0,186.0,Above 120,ST-T Abnormality,140.0,Exercise Angina Present,0.5,Flat,,,1,Long Beach
+56.0,Male,Asymptomatic,120.0,100.0,Below 120,Normal,120.0,Exercise Angina Present,1.5,Flat,0 Vessel(s),Reversable Defect,1,Long Beach
+55.0,Male,Nonanginal Pain,,228.0,Below 120,ST-T Abnormality,,,,,,,1,Long Beach
+54.0,Male,Asymptomatic,,,Below 120,ST-T Abnormality,,,,,,,1,Long Beach
+77.0,Male,Asymptomatic,124.0,171.0,Below 120,ST-T Abnormality,110.0,Exercise Angina Present,2.0,Up,,,1,Long Beach
+63.0,Male,Asymptomatic,160.0,230.0,Above 120,Normal,105.0,Exercise Angina Present,1.0,Flat,,,1,Long Beach
+55.0,Male,Nonanginal Pain,,,Below 120,Normal,155.0,Exercise Angina Absent,1.5,Flat,,,1,Long Beach
+52.0,Male,Nonanginal Pain,122.0,,Below 120,Normal,110.0,Exercise Angina Present,2.0,Down,,,1,Long Beach
+64.0,Male,Asymptomatic,144.0,,Below 120,ST-T Abnormality,122.0,Exercise Angina Present,1.0,Flat,,,1,Long Beach
+60.0,Male,Asymptomatic,,281.0,Below 120,ST-T Abnormality,,,,,,,1,Long Beach
+60.0,Male,Asymptomatic,120.0,,Below 120,Normal,133.0,Exercise Angina Present,2.0,Up,,Reversable Defect,0,Long Beach
+58.0,Male,Asymptomatic,,203.0,Above 120,Normal,,,,,,,1,Long Beach
+59.0,Male,Asymptomatic,154.0,,Below 120,ST-T Abnormality,131.0,Exercise Angina Present,1.5,,0 Vessel(s),,0,Long Beach
+61.0,Male,Nonanginal Pain,120.0,,Below 120,Normal,80.0,Exercise Angina Present,0.0,Flat,,,1,Long Beach
+40.0,Male,Asymptomatic,125.0,,Above 120,Normal,165.0,Exercise Angina Absent,0.0,,,Reversable Defect,1,Long Beach
+61.0,Male,Asymptomatic,,,Above 120,ST-T Abnormality,86.0,Exercise Angina Absent,1.5,Flat,,Reversable Defect,1,Long Beach
+41.0,Male,Asymptomatic,104.0,,Below 120,ST-T Abnormality,111.0,Exercise Angina Absent,0.0,,,,0,Long Beach
+57.0,Male,Asymptomatic,,277.0,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+63.0,Male,Asymptomatic,136.0,,Below 120,Normal,84.0,Exercise Angina Present,0.0,,,Reversable Defect,1,Long Beach
+59.0,Male,Asymptomatic,122.0,233.0,Below 120,Normal,117.0,Exercise Angina Present,1.3,Down,,,1,Long Beach
+51.0,Male,Asymptomatic,128.0,,Below 120,Normal,107.0,Exercise Angina Absent,0.0,,,,0,Long Beach
+59.0,Male,Nonanginal Pain,,,Below 120,Normal,128.0,Exercise Angina Present,2.0,Down,,,1,Long Beach
+42.0,Male,Nonanginal Pain,134.0,240.0,,Normal,160.0,Exercise Angina Absent,0.0,,,,0,Long Beach
+55.0,Male,Nonanginal Pain,120.0,,Below 120,ST-T Abnormality,125.0,Exercise Angina Present,2.5,Flat,,Reversable Defect,1,Long Beach
+63.0,Female,Atypical Angina,,,Below 120,Normal,,,,,,,0,Long Beach
+62.0,Male,Asymptomatic,152.0,153.0,Below 120,ST-T Abnormality,97.0,Exercise Angina Present,1.6,Up,,Reversable Defect,1,Long Beach
+56.0,Male,Atypical Angina,124.0,224.0,Above 120,Normal,161.0,Exercise Angina Absent,2.0,Flat,,,0,Long Beach
+53.0,Male,Asymptomatic,126.0,,Below 120,Normal,106.0,Exercise Angina Absent,0.0,,,,1,Long Beach
+68.0,Male,Asymptomatic,138.0,,Below 120,Normal,130.0,Exercise Angina Present,3.0,Flat,,,1,Long Beach
+53.0,Male,Asymptomatic,154.0,,,ST-T Abnormality,140.0,Exercise Angina Present,1.5,Flat,,,1,Long Beach
+60.0,Male,Nonanginal Pain,,316.0,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+62.0,Male,Atypical Angina,,,Below 120,Normal,,,,,,,0,Long Beach
+59.0,Male,Asymptomatic,178.0,,Above 120,LV Hypertrophy,120.0,Exercise Angina Present,0.0,,,Reversable Defect,1,Long Beach
+51.0,Male,Asymptomatic,,218.0,Above 120,LV Hypertrophy,,,,,,,0,Long Beach
+61.0,Male,Asymptomatic,110.0,,,Normal,108.0,Exercise Angina Present,2.0,Down,,,1,Long Beach
+57.0,Male,Asymptomatic,130.0,311.0,,ST-T Abnormality,148.0,Exercise Angina Present,2.0,Flat,,,1,Long Beach
+56.0,Male,Nonanginal Pain,170.0,,Below 120,LV Hypertrophy,123.0,Exercise Angina Present,2.5,,,,1,Long Beach
+58.0,Male,Atypical Angina,126.0,,Above 120,Normal,110.0,Exercise Angina Present,2.0,Flat,,,1,Long Beach
+69.0,Male,Nonanginal Pain,140.0,,,ST-T Abnormality,118.0,Exercise Angina Absent,2.5,Down,,,1,Long Beach
+67.0,Male,Typical Angina,142.0,270.0,Above 120,Normal,125.0,Exercise Angina Absent,2.5,Up,,,1,Long Beach
+58.0,Male,Asymptomatic,120.0,,Below 120,LV Hypertrophy,106.0,Exercise Angina Present,1.5,Down,,Reversable Defect,1,Long Beach
+65.0,Male,Asymptomatic,,,Below 120,Normal,,,,,,,1,Long Beach
+63.0,Male,Atypical Angina,,217.0,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+55.0,Male,Atypical Angina,110.0,214.0,Above 120,ST-T Abnormality,180.0,Exercise Angina Absent,,,,,0,Long Beach
+57.0,Male,Asymptomatic,140.0,214.0,Below 120,ST-T Abnormality,144.0,Exercise Angina Present,2.0,Flat,,Fixed Defect,1,Long Beach
+65.0,Male,Typical Angina,,252.0,Below 120,Normal,,,,,,,0,Long Beach
+54.0,Male,Asymptomatic,136.0,220.0,Below 120,Normal,140.0,Exercise Angina Present,3.0,Flat,,,1,Long Beach
+72.0,Male,Nonanginal Pain,120.0,214.0,Below 120,Normal,102.0,Exercise Angina Present,1.0,Flat,,,1,Long Beach
+75.0,Male,Asymptomatic,170.0,203.0,Above 120,ST-T Abnormality,108.0,Exercise Angina Absent,0.0,,,Reversable Defect,1,Long Beach
+49.0,Male,Typical Angina,130.0,,Below 120,ST-T Abnormality,145.0,Exercise Angina Absent,3.0,Flat,,,1,Long Beach
+51.0,Male,Nonanginal Pain,,339.0,Below 120,Normal,,,,,,,1,Long Beach
+60.0,Male,Asymptomatic,142.0,216.0,Below 120,Normal,110.0,Exercise Angina Present,2.5,Flat,,,1,Long Beach
+64.0,Female,Asymptomatic,142.0,276.0,Below 120,Normal,140.0,Exercise Angina Present,1.0,Flat,,Reversable Defect,1,Long Beach
+58.0,Male,Asymptomatic,132.0,458.0,Above 120,Normal,69.0,Exercise Angina Absent,1.0,Down,,,0,Long Beach
+61.0,Male,Asymptomatic,146.0,241.0,Below 120,Normal,148.0,Exercise Angina Present,3.0,Down,,,1,Long Beach
+67.0,Male,Asymptomatic,160.0,384.0,Above 120,ST-T Abnormality,130.0,Exercise Angina Present,0.0,Flat,,,1,Long Beach
+62.0,Male,Asymptomatic,135.0,297.0,Below 120,Normal,130.0,Exercise Angina Present,1.0,Flat,,,1,Long Beach
+65.0,Male,Asymptomatic,136.0,248.0,Below 120,Normal,140.0,Exercise Angina Present,4.0,Down,,,1,Long Beach
+63.0,Male,Asymptomatic,130.0,308.0,Below 120,Normal,138.0,Exercise Angina Present,2.0,Flat,,,1,Long Beach
+69.0,Male,Asymptomatic,140.0,208.0,Below 120,ST-T Abnormality,140.0,Exercise Angina Present,2.0,,,,1,Long Beach
+51.0,Male,Asymptomatic,,227.0,Above 120,ST-T Abnormality,,,,,,,0,Long Beach
+62.0,Male,Asymptomatic,158.0,210.0,Above 120,Normal,112.0,Exercise Angina Present,3.0,Down,,,1,Long Beach
+55.0,Male,Nonanginal Pain,,245.0,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+75.0,Male,Asymptomatic,136.0,225.0,Below 120,Normal,112.0,Exercise Angina Present,3.0,Flat,,,1,Long Beach
+40.0,Male,Nonanginal Pain,106.0,240.0,Below 120,Normal,80.0,Exercise Angina Present,0.0,,,Reversable Defect,0,Long Beach
+67.0,Male,Asymptomatic,120.0,,Above 120,Normal,150.0,Exercise Angina Absent,1.5,Down,,,1,Long Beach
+58.0,Male,Asymptomatic,110.0,198.0,Below 120,Normal,110.0,Exercise Angina Absent,0.0,,,,1,Long Beach
+60.0,Male,Asymptomatic,,195.0,Below 120,Normal,,,,,,,0,Long Beach
+63.0,Male,Asymptomatic,160.0,267.0,Above 120,ST-T Abnormality,88.0,Exercise Angina Present,2.0,,,,1,Long Beach
+35.0,Male,Nonanginal Pain,,161.0,Below 120,ST-T Abnormality,,,,,,,0,Long Beach
+62.0,Male,Typical Angina,112.0,258.0,Below 120,ST-T Abnormality,150.0,Exercise Angina Present,,,,,1,Long Beach
+43.0,Male,Asymptomatic,122.0,,Below 120,Normal,120.0,Exercise Angina Absent,0.5,Up,,,1,Long Beach
+63.0,Male,Nonanginal Pain,130.0,,Above 120,ST-T Abnormality,160.0,Exercise Angina Absent,3.0,Flat,,,0,Long Beach
+68.0,Male,Nonanginal Pain,150.0,195.0,Above 120,Normal,132.0,Exercise Angina Absent,0.0,,,Fixed Defect,1,Long Beach
+65.0,Male,Asymptomatic,150.0,235.0,Below 120,Normal,120.0,Exercise Angina Present,1.5,Flat,,,1,Long Beach
+48.0,Male,Nonanginal Pain,102.0,,,ST-T Abnormality,110.0,Exercise Angina Present,1.0,Down,,,1,Long Beach
+63.0,Male,Asymptomatic,96.0,305.0,Below 120,ST-T Abnormality,121.0,Exercise Angina Present,1.0,Up,,,1,Long Beach
+64.0,Male,Asymptomatic,130.0,223.0,Below 120,ST-T Abnormality,128.0,Exercise Angina Absent,0.5,Flat,,,0,Long Beach
+61.0,Male,Asymptomatic,120.0,282.0,Below 120,ST-T Abnormality,135.0,Exercise Angina Present,4.0,Down,,Fixed Defect,1,Long Beach
+50.0,Male,Asymptomatic,144.0,349.0,Below 120,LV Hypertrophy,120.0,Exercise Angina Present,1.0,Up,,Reversable Defect,1,Long Beach
+59.0,Male,Asymptomatic,124.0,,Below 120,Normal,117.0,Exercise Angina Present,1.0,Flat,,,1,Long Beach
+55.0,Male,Asymptomatic,150.0,160.0,Below 120,ST-T Abnormality,150.0,Exercise Angina Absent,0.0,,,,0,Long Beach
+45.0,Male,Nonanginal Pain,,236.0,Below 120,Normal,,,,,,,0,Long Beach
+65.0,Male,Asymptomatic,,312.0,Below 120,LV Hypertrophy,,,,,,,1,Long Beach
+61.0,Male,Atypical Angina,,283.0,Below 120,Normal,,,,,,,0,Long Beach
+49.0,Male,Nonanginal Pain,,142.0,Below 120,Normal,,,,,,,1,Long Beach
+72.0,Male,Asymptomatic,,211.0,Below 120,Normal,,,,,,,1,Long Beach
+50.0,Male,Asymptomatic,,218.0,Below 120,Normal,,,,,,,1,Long Beach
+64.0,Male,Asymptomatic,,306.0,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+55.0,Male,Asymptomatic,116.0,186.0,Above 120,ST-T Abnormality,102.0,Exercise Angina Absent,0.0,,,,1,Long Beach
+63.0,Male,Asymptomatic,110.0,252.0,Below 120,ST-T Abnormality,140.0,Exercise Angina Present,2.0,Flat,,,1,Long Beach
+59.0,Male,Asymptomatic,125.0,222.0,Below 120,Normal,135.0,Exercise Angina Present,2.5,Down,,,1,Long Beach
+56.0,Male,Asymptomatic,,,Below 120,LV Hypertrophy,,,,,,,1,Long Beach
+62.0,Male,Nonanginal Pain,,,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+74.0,Male,Asymptomatic,150.0,258.0,Above 120,ST-T Abnormality,130.0,Exercise Angina Present,4.0,Down,,,1,Long Beach
+54.0,Male,Asymptomatic,130.0,202.0,Above 120,Normal,112.0,Exercise Angina Present,2.0,Flat,,,1,Long Beach
+57.0,Male,Asymptomatic,110.0,197.0,Below 120,LV Hypertrophy,100.0,Exercise Angina Absent,0.0,,,,0,Long Beach
+62.0,Male,Nonanginal Pain,,204.0,Below 120,ST-T Abnormality,,,,,,,1,Long Beach
+76.0,Male,Nonanginal Pain,104.0,,Below 120,LV Hypertrophy,120.0,Exercise Angina Absent,3.5,Down,,,1,Long Beach
+54.0,Female,Asymptomatic,138.0,274.0,Below 120,Normal,105.0,Exercise Angina Present,1.5,Flat,,,1,Long Beach
+70.0,Male,Asymptomatic,170.0,192.0,Below 120,ST-T Abnormality,129.0,Exercise Angina Present,3.0,Down,,,1,Long Beach
+61.0,Female,Atypical Angina,140.0,298.0,Above 120,Normal,120.0,Exercise Angina Present,0.0,,,Reversable Defect,0,Long Beach
+48.0,Male,Asymptomatic,,272.0,Below 120,ST-T Abnormality,,,,,,,0,Long Beach
+48.0,Male,Nonanginal Pain,132.0,220.0,Above 120,ST-T Abnormality,162.0,Exercise Angina Absent,0.0,,,Fixed Defect,1,Long Beach
+61.0,Male,Typical Angina,142.0,200.0,Above 120,ST-T Abnormality,100.0,Exercise Angina Absent,1.5,Down,,,1,Long Beach
+66.0,Male,Asymptomatic,112.0,261.0,Below 120,Normal,140.0,Exercise Angina Absent,1.5,Up,,,1,Long Beach
+68.0,Male,Typical Angina,,181.0,Above 120,ST-T Abnormality,,,,,,,0,Long Beach
+55.0,Male,Asymptomatic,172.0,260.0,Below 120,Normal,73.0,Exercise Angina Absent,2.0,,,,1,Long Beach
+62.0,Male,Nonanginal Pain,120.0,220.0,Below 120,LV Hypertrophy,86.0,Exercise Angina Absent,0.0,,,,0,Long Beach
+71.0,Male,Nonanginal Pain,,221.0,Below 120,Normal,,,,,,,1,Long Beach
+74.0,Male,Typical Angina,,216.0,Above 120,Normal,,,,,,,1,Long Beach
+53.0,Male,Nonanginal Pain,155.0,175.0,Above 120,ST-T Abnormality,160.0,Exercise Angina Absent,,,,Fixed Defect,0,Long Beach
+58.0,Male,Nonanginal Pain,150.0,219.0,Below 120,ST-T Abnormality,118.0,Exercise Angina Present,0.0,,,,1,Long Beach
+75.0,Male,Asymptomatic,160.0,310.0,Above 120,Normal,112.0,Exercise Angina Present,2.0,Down,,Reversable Defect,0,Long Beach
+56.0,Male,Nonanginal Pain,,208.0,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+58.0,Male,Nonanginal Pain,,232.0,Below 120,ST-T Abnormality,,,,,,,1,Long Beach
+64.0,Male,Asymptomatic,134.0,273.0,Below 120,Normal,102.0,Exercise Angina Present,4.0,Down,,,1,Long Beach
+54.0,Male,Nonanginal Pain,,203.0,Below 120,ST-T Abnormality,,,,,,,0,Long Beach
+54.0,Male,Atypical Angina,,182.0,Below 120,ST-T Abnormality,,,,,,,0,Long Beach
+59.0,Male,Asymptomatic,140.0,274.0,Below 120,Normal,154.0,Exercise Angina Present,2.0,Flat,,,0,Long Beach
+55.0,Male,Asymptomatic,,204.0,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+57.0,Male,Asymptomatic,144.0,270.0,Above 120,ST-T Abnormality,160.0,Exercise Angina Present,2.0,Flat,,,1,Long Beach
+61.0,Male,Asymptomatic,,292.0,Below 120,ST-T Abnormality,,,,,,,1,Long Beach
+41.0,Male,Asymptomatic,150.0,171.0,Below 120,Normal,128.0,Exercise Angina Present,1.5,Flat,,,0,Long Beach
+71.0,Male,Asymptomatic,130.0,221.0,Below 120,ST-T Abnormality,115.0,Exercise Angina Present,0.0,,,,1,Long Beach
+38.0,Male,Asymptomatic,110.0,289.0,Below 120,Normal,105.0,Exercise Angina Present,1.5,Down,,,1,Long Beach
+55.0,Male,Asymptomatic,158.0,217.0,Below 120,Normal,110.0,Exercise Angina Present,2.5,Flat,,,1,Long Beach
+56.0,Male,Asymptomatic,128.0,223.0,Below 120,ST-T Abnormality,119.0,Exercise Angina Present,2.0,Down,,,1,Long Beach
+69.0,Male,Asymptomatic,,,Above 120,Normal,,,,,,,1,Long Beach
+64.0,Male,Asymptomatic,150.0,193.0,Below 120,ST-T Abnormality,135.0,Exercise Angina Present,0.5,Flat,,,1,Long Beach
+72.0,Male,Asymptomatic,160.0,,Above 120,LV Hypertrophy,130.0,Exercise Angina Absent,1.5,,,,1,Long Beach
+69.0,Male,Asymptomatic,,210.0,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+56.0,Male,Asymptomatic,,282.0,Above 120,Normal,,,,,,,1,Long Beach
+62.0,Male,Asymptomatic,,170.0,Below 120,ST-T Abnormality,120.0,Exercise Angina Present,3.0,,,,1,Long Beach
+67.0,Male,Asymptomatic,,369.0,Below 120,Normal,,,,,,,1,Long Beach
+57.0,Male,Asymptomatic,156.0,173.0,Below 120,LV Hypertrophy,119.0,Exercise Angina Present,3.0,Down,,,1,Long Beach
+69.0,Male,Asymptomatic,,289.0,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+51.0,Male,Asymptomatic,,,Above 120,LV Hypertrophy,,,,,,Reversable Defect,1,Long Beach
+48.0,Male,Asymptomatic,140.0,,Below 120,Normal,159.0,Exercise Angina Present,1.5,Up,,,1,Long Beach
+69.0,Male,Asymptomatic,122.0,216.0,Above 120,LV Hypertrophy,84.0,Exercise Angina Present,0.0,,,Reversable Defect,1,Long Beach
+69.0,Male,Nonanginal Pain,,271.0,Below 120,LV Hypertrophy,,,,,,,0,Long Beach
+64.0,Male,Asymptomatic,,244.0,Above 120,ST-T Abnormality,,,,,,,1,Long Beach
+57.0,Male,Atypical Angina,180.0,285.0,Above 120,ST-T Abnormality,120.0,Exercise Angina Absent,0.8,,,,1,Long Beach
+53.0,Male,Asymptomatic,124.0,243.0,Below 120,Normal,122.0,Exercise Angina Present,2.0,Flat,,Reversable Defect,1,Long Beach
+37.0,Male,Nonanginal Pain,118.0,240.0,Below 120,LV Hypertrophy,165.0,Exercise Angina Absent,1.0,Flat,,Normal,0,Long Beach
+67.0,Male,Asymptomatic,140.0,219.0,Below 120,ST-T Abnormality,122.0,Exercise Angina Present,2.0,Flat,,Reversable Defect,1,Long Beach
+74.0,Male,Nonanginal Pain,140.0,237.0,Above 120,Normal,94.0,Exercise Angina Absent,0.0,,,,1,Long Beach
+63.0,Male,Atypical Angina,,165.0,Below 120,ST-T Abnormality,,,,,,,0,Long Beach
+58.0,Male,Asymptomatic,100.0,213.0,Below 120,ST-T Abnormality,110.0,Exercise Angina Absent,0.0,,,,0,Long Beach
+61.0,Male,Asymptomatic,190.0,287.0,Above 120,LV Hypertrophy,150.0,Exercise Angina Present,2.0,Down,,,1,Long Beach
+64.0,Male,Asymptomatic,130.0,258.0,Above 120,LV Hypertrophy,130.0,Exercise Angina Absent,0.0,,,Fixed Defect,1,Long Beach
+58.0,Male,Asymptomatic,160.0,256.0,Above 120,LV Hypertrophy,113.0,Exercise Angina Present,1.0,Up,,,1,Long Beach
+60.0,Male,Asymptomatic,130.0,186.0,Above 120,LV Hypertrophy,140.0,Exercise Angina Present,0.5,Flat,,,1,Long Beach
+57.0,Male,Asymptomatic,122.0,264.0,Below 120,LV Hypertrophy,100.0,Exercise Angina Absent,0.0,,,,1,Long Beach
+55.0,Male,Nonanginal Pain,,,Below 120,ST-T Abnormality,,,,,,,0,Long Beach
+55.0,Male,Asymptomatic,120.0,226.0,Below 120,LV Hypertrophy,127.0,Exercise Angina Present,1.7,Down,,Reversable Defect,1,Long Beach
+56.0,Male,Asymptomatic,130.0,203.0,Above 120,Normal,98.0,Exercise Angina Absent,1.5,Flat,,Reversable Defect,1,Long Beach
+57.0,Male,Asymptomatic,130.0,207.0,Below 120,ST-T Abnormality,96.0,Exercise Angina Present,1.0,Flat,,,0,Long Beach
+61.0,Male,Nonanginal Pain,,284.0,Below 120,Normal,,,,,,,1,Long Beach
+61.0,Male,Nonanginal Pain,120.0,337.0,Below 120,Normal,98.0,Exercise Angina Present,0.0,,,,1,Long Beach
+58.0,Male,Nonanginal Pain,150.0,219.0,Below 120,ST-T Abnormality,118.0,Exercise Angina Present,0.0,,,,1,Long Beach
+74.0,Male,Asymptomatic,155.0,310.0,Below 120,Normal,112.0,Exercise Angina Present,1.5,Down,,,1,Long Beach
+68.0,Male,Nonanginal Pain,134.0,254.0,Above 120,Normal,151.0,Exercise Angina Present,0.0,,,Normal,0,Long Beach
+51.0,Female,Asymptomatic,114.0,258.0,Above 120,LV Hypertrophy,96.0,Exercise Angina Absent,1.0,Up,,,0,Long Beach
+62.0,Male,Asymptomatic,160.0,254.0,Above 120,ST-T Abnormality,108.0,Exercise Angina Present,3.0,Flat,,,1,Long Beach
+53.0,Male,Asymptomatic,144.0,300.0,Above 120,ST-T Abnormality,128.0,Exercise Angina Present,1.5,Flat,,,1,Long Beach
+62.0,Male,Asymptomatic,158.0,170.0,Below 120,ST-T Abnormality,138.0,Exercise Angina Present,0.0,,,,1,Long Beach
+46.0,Male,Asymptomatic,134.0,310.0,Below 120,Normal,126.0,Exercise Angina Absent,0.0,,,Normal,1,Long Beach
+54.0,Female,Asymptomatic,127.0,333.0,Above 120,ST-T Abnormality,154.0,Exercise Angina Absent,0.0,,,,1,Long Beach
+62.0,Male,Typical Angina,,139.0,Below 120,ST-T Abnormality,,,,,,,0,Long Beach
+55.0,Male,Asymptomatic,122.0,223.0,Above 120,ST-T Abnormality,100.0,Exercise Angina Absent,0.0,,,Fixed Defect,1,Long Beach
+58.0,Male,Asymptomatic,,385.0,Above 120,LV Hypertrophy,,,,,,,0,Long Beach
+62.0,Male,Atypical Angina,120.0,254.0,Below 120,LV Hypertrophy,93.0,Exercise Angina Present,0.0,,,,1,Long Beach
